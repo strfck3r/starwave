@@ -1,0 +1,26 @@
+{
+    "_comment": "Drives the StarWave Wizard menu. Add a build or layout here and every device picks it up with no add-on update. Personal builds must never contain credentials - a Kodi repository has to be publicly readable.",
+    "builds": [
+        {
+            "id": "starwave",
+            "name": "StarWave (clean)",
+            "url": "https://github.com/strfck3r/starwave/releases/latest/download/StarWave-V1-kodi.zip",
+            "description": "The stock StarWave build: skin, home menu, widgets and 108 add-ons, with no personal configuration. Sign in to your own services afterwards via Trakt > Setup."
+        }
+    ],
+    "layouts": [
+        {
+            "id": "starwave",
+            "name": "StarWave",
+            "skin": "skin.NTVaura",
+            "description": "The original StarWave layout: Trakt, Movies, Shows, Settings and Quit, with the Aura wallpaper rotation."
+        },
+        {
+            "id": "arcticfuse",
+            "name": "Arctic Fuse",
+            "skin": "skin.arctic.fuse.3",
+            "config": "https://strfck3r.github.io/starwave/layouts/arctic-fuse-config.zip",
+            "description": "Arctic Fuse 3, with home rows built from your Trakt lists and a submenu for the source add-ons. Downloads the skin if this device does not have it."
+        }
+    ]
+}
