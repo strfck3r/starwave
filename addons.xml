@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="skin.NTVaura" version="4.2.3" name="StarWave" provider-name="jurialmunkey, StarWave">
+    <requires>
+
+	<import addon="script.skinshortcuts"/>
+	<import addon="resource.images.Aura"/>
+	<import addon="screensaver.picture.slideshow.Aura"/>
+
+
+    </requires>
+    <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Minimalistic. Customisable. Multiple Widgets.</summary>
+        <description lang="en">Aura is highly customisable skin with multiple widgets and a horizontal home menu. Aura combines the minimalism and rounded edges of Arctic Zephyr with the sleek customisability of Horizon. Whilst the best Aura experience is had with a remote, Aura has been designed to accomodate mouse and touch users where possible.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <forum/>
+        <source/>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+
+        </assets>
+    </extension>
+</addon>
+<addon id="resource.images.Aura" name="Aura Background pack Volume 2" version="2.0.0" provider-name="Ryski">
+	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Volume 2 backgrounds Pack - Aura Defualt</summary>
+		<description lang="en">Volume 2 backgrounds Pack - Aura Defualt</description>
+		<summary lang="he"></summary>
+		<description lang="he"></description>
+		<platform>all</platform>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+
+        </assets>
+	</extension>
+</addon>
+<addon id="screensaver.picture.slideshow.Aura" name="Aura Default Screensaver" version="2.0.0" provider-name="Team Kodi, Ryski Mod">
+	<requires>
+		<import addon="xbmc.python" version="3.0.1" />
+		<import addon="script.module.exifread" version="2.1.2+matrix.0" />
+		<import addon="script.module.iptcinfo3" version="2.1.4+matrix.1" />
+	</requires>
+	<extension point="xbmc.ui.screensaver" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+
+		<platform>all</platform>
+
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+		<news>- first version for Kodi Nexus</news>
+	</extension>
+</addon>
+<addon id="plugin.program.LegionHubs" version="1.1.9" name="Star Hubs" provider-name="primaeval, Ryski Mod">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>executable</provides>
+</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Addon to Provide R-Kade Widgets And Setup Shortcuts for the Popular Addons</summary>
+		<description>Addon to Provide R-Kade Widgets And Setup Shortcuts for the Popular Addons</description>
+
+
+
+
+
+		<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<banner></banner>
+				<clearlogo></clearlogo>
+				<screenshot></screenshot>
+		</assets>
+	</extension>
+</addon>
+<addon id="script.module.myaccounts" version="2.0.7" name="My Accounts PN" provider-name="Venom, Fen, Ryski Mod">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" version="2.19.1" />
+	</requires>
+	<extension point="xbmc.python.script" library="lib/default.py">
+		<provides>executable</provides>
+	</extension>
+	<!--<extension point="xbmc.service" library="lib/service.py" start="startup" />-->
+	<extension point="xbmc.python.module" library="lib" /> <!-- Must be placed after xbmc.python.pluginsource, otherwise the addon does not show in the repository. -->
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>false</reuselanguageinvoker>
+		<summary lang="en">My Accounts Module</summary>
+		<description>Single placeholder for all your accounts.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website>https://github.com/Mr-Kodi/repository.myaccounts</website>
+		<source>https://github.com/Mr-Kodi/repository.myaccounts</source>
+		<disclaimer lang="en">The author is not responsible for the use of this addon. [CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.png</fanart>
+			<screenshot></screenshot>
+		</assets>
+		<news>
+[B][COLOR red]Update - v2.0.0 - Nov. 23, 2021[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] First official py3 only version for Kodi Matrix.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed issue with "check for updates" using old github url.[/I]
+		</news>
+	</extension>
+</addon>
+<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="1.0.1" provider-name="StarWave">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Install the StarWave build</summary>
+        <description lang="en_GB">Downloads and applies the StarWave Kodi build — skin, home menu, widgets, add-ons and their configuration — in one step. Replaces the current Kodi setup, so run it on a fresh Kodi install unless you mean to overwrite what is there. Kodi is closed at the end; reopen it to come up on StarWave.</description>
+        <platform>all</platform>
+        <license>GPL-3.0-only</license>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+<addon id="repository.starwave" name="StarWave Repository" version="1.0.0" provider-name="StarWave">
+    <extension point="xbmc.addon.repository" name="StarWave Repository">
+        <dir>
+            <info compressed="false">https://strfck3r.github.io/starwave/addons.xml</info>
+            <checksum>https://strfck3r.github.io/starwave/addons.xml.md5</checksum>
+            <datadir zip="true">https://strfck3r.github.io/starwave/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Add-ons for the StarWave Kodi build</summary>
+        <description lang="en_GB">Hosts the add-ons the StarWave build depends on that are not available from any other repository — the skin, its image and screensaver resource packs, the Star Hubs setup screen, and the accounts module. The build's original maintainer disappeared and their server went offline; this repository exists so those add-ons remain installable.</description>
+        <platform>all</platform>
+        <license>GPL-3.0-only</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+</addons>
