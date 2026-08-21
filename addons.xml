@@ -26,7 +26,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="resource.images.Aura" name="Aura Background pack Volume 2" version="2.0.0" provider-name="Ryski">
+<addon id="resource.images.Aura" name="Aura Background pack Volume 2" version="2.0.1" provider-name="Ryski">
 	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
 	<requires>
 		<import addon="kodi.resource" version="1.0.0"/>
@@ -120,7 +120,7 @@
 		</news>
 	</extension>
 </addon>
-<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="1.0.1" provider-name="StarWave">
+<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="2.0.0" provider-name="StarWave">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -128,8 +128,9 @@
         <provides>executable</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Install the StarWave build</summary>
-        <description lang="en_GB">Downloads and applies the StarWave Kodi build — skin, home menu, widgets, add-ons and their configuration — in one step. Replaces the current Kodi setup, so run it on a fresh Kodi install unless you mean to overwrite what is there. Kodi is closed at the end; reopen it to come up on StarWave.</description>
+        <summary lang="en_GB">Install and update the StarWave build</summary>
+        <description lang="en_GB">Installs and updates the StarWave Kodi build. Fresh Install resets everything to the build defaults; Update brings the skin, menus, widgets and add-ons up to the current build while keeping your Kodi settings, sources, favourites and every add-on login and configuration — nothing has to be signed in or set up again. Kodi is closed at the end; reopen it to finish.</description>
+        <news>2.0.0 — Update mode: applies the latest build while keeping your settings and logins. Fresh Install remains for first installs and resets.</news>
         <platform>all</platform>
         <license>GPL-3.0-only</license>
         <assets>
