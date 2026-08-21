@@ -3,9 +3,9 @@
     "builds": [
         {
             "id": "starwave",
-            "name": "StarWave v4 (clean)",
+            "name": "StarWave v4",
             "url": "https://github.com/strfck3r/starwave/releases/latest/download/StarWave-V1-kodi.zip",
-            "description": "The stock StarWave build, version 4. No personal configuration and no credentials: audio, display and passthrough are left at Kodi defaults so it works on any device. Sign in via Trakt > Setup."
+            "description": "The stock StarWave build, version 4 \u2014 skin, home menu, widgets and 108 add-ons. It carries no personal configuration and no credentials, and leaves audio and display at Kodi defaults so it works on any device. Choose Update to keep your own settings and logins, or Fresh Install to reset them."
         }
     ],
     "layouts": [
