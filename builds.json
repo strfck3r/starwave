@@ -3,9 +3,9 @@
     "builds": [
         {
             "id": "starwave",
-            "name": "StarWave (clean)",
+            "name": "StarWave v4 (clean)",
             "url": "https://github.com/strfck3r/starwave/releases/latest/download/StarWave-V1-kodi.zip",
-            "description": "The stock StarWave build: skin, home menu, widgets and 108 add-ons, with no personal configuration. Sign in to your own services afterwards via Trakt > Setup."
+            "description": "The stock StarWave build, version 4. No personal configuration and no credentials: audio, display and passthrough are left at Kodi defaults so it works on any device. Sign in via Trakt > Setup."
         }
     ],
     "layouts": [
@@ -22,5 +22,6 @@
             "config": "https://strfck3r.github.io/starwave/layouts/arctic-fuse-config.zip",
             "description": "Arctic Fuse 3, with home rows built from your Trakt lists and a submenu for the source add-ons. Downloads the skin if this device does not have it."
         }
-    ]
+    ],
+    "version": "4"
 }
