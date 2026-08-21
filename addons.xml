@@ -120,7 +120,7 @@
 		</news>
 	</extension>
 </addon>
-<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="4.1.1" provider-name="StarWave">
+<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="4.2.0" provider-name="StarWave">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -130,7 +130,7 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Install builds and switch layouts for StarWave</summary>
         <description lang="en_GB">Installs and updates StarWave builds, and switches between layouts. Update keeps your Kodi settings, sources, favourites and every add-on login; Fresh Install resets to the build defaults. Switching layout changes only the skin and its menu - credentials and preferences are never touched, because no skin stores them. Kodi is closed at the end; reopen it to finish.</description>
-        <news>4.1.1 - Shortened the reset button label, which was being truncated in tile views. 4.1.0 - New: Reset audio and display, for when a build captured on one machine lands on different hardware and there is no sound. Update and Fresh Install are now shown directly when only one build is published.</news>
+        <news>4.2.0 - New: Back up my settings. Packages this device into a build zip you can install on your other devices, with logins removed and caches left out. Runs on the device itself, so no computer is needed.</news>
         <platform>all</platform>
         <license>GPL-3.0-only</license>
         <assets>
