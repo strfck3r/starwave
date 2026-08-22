@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.NTVaura" version="4.2.3" name="StarWave" provider-name="jurialmunkey, StarWave">
+<addon id="skin.NTVaura" version="4.2.4" name="StarWave" provider-name="jurialmunkey, StarWave">
     <requires>
 
 	<import addon="script.skinshortcuts"/>
@@ -120,7 +120,7 @@
 		</news>
 	</extension>
 </addon>
-<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="4.2.0" provider-name="StarWave">
+<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="4.4.0" provider-name="StarWave">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -130,7 +130,7 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Install builds and switch layouts for StarWave</summary>
         <description lang="en_GB">Installs and updates StarWave builds, and switches between layouts. Update keeps your Kodi settings, sources, favourites and every add-on login; Fresh Install resets to the build defaults. Switching layout changes only the skin and its menu - credentials and preferences are never touched, because no skin stores them. Kodi is closed at the end; reopen it to finish.</description>
-        <news>4.2.0 - New: Back up my settings. Packages this device into a build zip you can install on your other devices, with logins removed and caches left out. Runs on the device itself, so no computer is needed.</news>
+        <news>4.4.0 - New: Fix live streams. For when live sports will not play, most often on a Steam Deck. Turns the HLS/DASH player back on, stops FFmpeg Direct dropping stream headers, clears The Crew's cache, and on Flatpak shows the one terminal command that lets encrypted streams authenticate.</news>
         <platform>all</platform>
         <license>GPL-3.0-only</license>
         <assets>
