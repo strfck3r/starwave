@@ -120,7 +120,7 @@
 		</news>
 	</extension>
 </addon>
-<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="4.8.2" provider-name="StarWave">
+<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="4.9.0" provider-name="StarWave">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -131,7 +131,7 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Install builds and switch layouts for StarWave</summary>
         <description lang="en_GB">Installs and updates StarWave builds, and switches between layouts. Update keeps your Kodi settings, sources, favourites and every add-on login; Fresh Install resets to the build defaults. Switching layout changes only the skin and its menu - credentials and preferences are never touched, because no skin stores them. Kodi is closed at the end; reopen it to finish.</description>
-        <news>4.8.2 - Warns if the StarWave Repository is not installed. It is possible to install the wizard on its own, straight from its zip; that works, but nothing on that device will ever update again, because the repository is what offers newer versions. Install the repository first, then the wizard from it.</news>
+        <news>4.9.0 - The six wizard actions are now tiles in the Settings row: Install or Update, Switch Layout, Reset Audio, Back Up Settings, GitHub Token and Fix Live Streams. They arrive on their own; tiles you added yourself are left alone. Also fixes long messages having their last lines hidden behind the OK button - anything that tall now opens in a scrollable view instead.</news>
         <platform>all</platform>
         <license>GPL-3.0-only</license>
         <assets>
