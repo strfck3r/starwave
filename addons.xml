@@ -120,7 +120,7 @@
 		</news>
 	</extension>
 </addon>
-<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="4.4.3" provider-name="StarWave">
+<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="4.5.0" provider-name="StarWave">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -130,7 +130,7 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Install builds and switch layouts for StarWave</summary>
         <description lang="en_GB">Installs and updates StarWave builds, and switches between layouts. Update keeps your Kodi settings, sources, favourites and every add-on login; Fresh Install resets to the build defaults. Switching layout changes only the skin and its menu - credentials and preferences are never touched, because no skin stores them. Kodi is closed at the end; reopen it to finish.</description>
-        <news>4.4.3 - Fixes the version on the Quit tile showing an old number (e.g. v2) after an update. The version lives in your menu data, which updates keep, so it could lag behind the build. Updates now refresh it automatically, and a new Fix the version label option sets it instantly with no download.</news>
+        <news>4.5.0 - The version you see is now the version you have. It is read straight from the installed build, and the wizard records when it last applied a build - so there is never a question which build you are on or whether an update ran. The old Fix the version label button is gone; it is no longer needed.</news>
         <platform>all</platform>
         <license>GPL-3.0-only</license>
         <assets>
