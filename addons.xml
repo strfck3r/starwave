@@ -120,7 +120,7 @@
 		</news>
 	</extension>
 </addon>
-<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="4.8.0" provider-name="StarWave">
+<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="4.8.1" provider-name="StarWave">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -131,7 +131,7 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Install builds and switch layouts for StarWave</summary>
         <description lang="en_GB">Installs and updates StarWave builds, and switches between layouts. Update keeps your Kodi settings, sources, favourites and every add-on login; Fresh Install resets to the build defaults. Switching layout changes only the skin and its menu - credentials and preferences are never touched, because no skin stores them. Kodi is closed at the end; reopen it to finish.</description>
-        <news>4.8.0 - Updates now look after themselves. A background service forces Kodi to check the StarWave repository at every start, instead of waiting up to a day, so a new version arrives on the next launch. It also applies this device's fixes once on its own - menu icons, refresh-rate and audio passthrough, and The Gears' scrapers - with no build download and nothing to press. Menu icons now ship inside the wizard, so an icon change costs a small add-on update rather than a whole build. And on a Steam Deck the sandbox command is only shown when it has not already been run.</news>
+        <news>4.8.1 - The automatic menu-icon update now waits until Kodi is closing before rebuilding the menu, instead of doing it while Kodi is running. Rebuilding mid-session removes the file the on-screen menu is drawn from, which risks Kodi hanging on the next start. Nothing else changes: updates are still checked at every start and this device's fixes still apply on their own.</news>
         <platform>all</platform>
         <license>GPL-3.0-only</license>
         <assets>
