@@ -120,7 +120,7 @@
 		</news>
 	</extension>
 </addon>
-<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="4.6.0" provider-name="StarWave">
+<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="4.7.0" provider-name="StarWave">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -130,7 +130,7 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Install builds and switch layouts for StarWave</summary>
         <description lang="en_GB">Installs and updates StarWave builds, and switches between layouts. Update keeps your Kodi settings, sources, favourites and every add-on login; Fresh Install resets to the build defaults. Switching layout changes only the skin and its menu - credentials and preferences are never touched, because no skin stores them. Kodi is closed at the end; reopen it to finish.</description>
-        <news>4.6.0 - Installs now tune themselves to the device they land on. If your display offers only one resolution (a Steam Deck's built-in screen), refresh-rate switching is turned off, because asking for a mode change with nowhere to go could freeze Kodi at every play and stop. If audio passthrough points at a different device than your sound, it is turned off. A TV or receiver setup is detected as such and left exactly as it is. The Gears also has its scrapers switched back on if it is still carrying the shipped settings that left it finding nothing.</news>
+        <news>4.7.0 - Menu icons now travel with an update. The icon images always arrived, but the menu kept pointing at the old ones, because your menu layout is deliberately preserved so an update never resets it. The wizard now copies just the icon pictures across, matching each tile by what it does, so tiles you added yourself and any layout changes you made are left exactly as they are. Also carries 4.6.0's per-device tuning: refresh-rate switching, audio passthrough and The Gears' scrapers.</news>
         <platform>all</platform>
         <license>GPL-3.0-only</license>
         <assets>
