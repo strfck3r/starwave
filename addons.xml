@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.NTVaura" version="4.3.0" name="StarWave" provider-name="jurialmunkey, StarWave">
+<addon id="skin.NTVaura" version="4.4.0" name="StarWave" provider-name="jurialmunkey, StarWave">
     <requires>
 
 	<import addon="script.skinshortcuts"/>
