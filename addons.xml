@@ -120,7 +120,7 @@
 		</news>
 	</extension>
 </addon>
-<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="4.11.3" provider-name="StarWave">
+<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="4.12.0" provider-name="StarWave">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -131,7 +131,7 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Install builds and switch layouts for StarWave</summary>
         <description lang="en_GB">Installs and updates StarWave builds, and switches between layouts. Update keeps your Kodi settings, sources, favourites and every add-on login; Fresh Install resets to the build defaults. Switching layout changes only the skin and its menu - credentials and preferences are never touched, because no skin stores them. Kodi is closed at the end; reopen it to finish.</description>
-        <news>4.11.3 - Renames Fix Live Streams to Repair Streaming, so it is not mistaken for the Live section - it repairs playback for every add-on, not one of them. Its result screen now fits a normal dialog with an OK button again. The GitHub token and backup screens no longer use one person's repository as the example. Add-on caches are excluded from captured builds: the YouTube add-on's cache was carrying an account name.</news>
+        <news>4.12.0 - The wizard can now install a shared build from a private repository, using the GitHub token already saved on the device. Devices without a token, or before the private repository exists, are unaffected.</news>
         <platform>all</platform>
         <license>GPL-3.0-only</license>
         <assets>
