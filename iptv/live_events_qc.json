@@ -1,0 +1,499 @@
+{
+  "stats": {
+    "total_events": 40,
+    "total_targets_probed": 48,
+    "active_live_streams": 16,
+    "inactive_events": 32,
+    "resolution_breakdown": {
+      "1080p": 0,
+      "720p": 16,
+      "sub_720p": 0
+    },
+    "scraped_at": "2026-08-26T04:39:53Z",
+    "elapsed_seconds": 8.86
+  },
+  "active_streams": [
+    {
+      "sport": "MLB",
+      "title": "Tampa Bay Rays vs Detroit Tigers",
+      "page_url": "https://roxiestreams.su/mlb-streams-1",
+      "stream_url": "https://admin2.pawtner.com.au/mlb.m3u8",
+      "alive": true,
+      "max_resolution": 720,
+      "status": "Direct media playlist (single variant)",
+      "variants": []
+    },
+    {
+      "sport": "MLB",
+      "title": "Boston Red Sox vs Miami Marlins",
+      "page_url": "https://roxiestreams.su/mlb-streams-2",
+      "stream_url": "https://admin2.pawtner.com.au/mlb2.m3u8",
+      "alive": true,
+      "max_resolution": 720,
+      "status": "Direct media playlist (single variant)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Stoke City vs Hull",
+      "page_url": "https://roxiestreams.su/soccer-streams-5",
+      "stream_url": "https://admin2.pawtner.com.au/vsport.m3u8",
+      "alive": true,
+      "max_resolution": 720,
+      "status": "Direct media playlist (single variant)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Cardiff City vs Norwich City",
+      "page_url": "https://roxiestreams.su/soccer-streams-4",
+      "stream_url": "https://admin2.pawtner.com.au/cardiff.m3u8",
+      "alive": true,
+      "max_resolution": 720,
+      "status": "Direct media playlist (single variant)",
+      "variants": []
+    },
+    {
+      "sport": "MLB",
+      "title": "Cincinnati Reds vs San Francisco Giants",
+      "page_url": "https://roxiestreams.su/mlb-streams-15",
+      "stream_url": "https://admin2.pawtner.com.au/mlb15.m3u8",
+      "alive": true,
+      "max_resolution": 720,
+      "status": "Direct media playlist (single variant)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Sabah vs H. BEER-Sheva",
+      "page_url": "https://roxiestreams.su/soccer-streams-2",
+      "stream_url": "https://admin2.pawtner.com.au/tnt.m3u8",
+      "alive": true,
+      "max_resolution": 720,
+      "status": "Direct media playlist (single variant)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Sabah vs H. BEER-Sheva",
+      "page_url": "https://roxiestreams.su/soccer-streams-2",
+      "stream_url": "https://admin2.pawtner.com.au/tnt2.m3u8",
+      "alive": true,
+      "max_resolution": 720,
+      "status": "Direct media playlist (single variant)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Sheffield Wednesday vs Wolves",
+      "page_url": "https://roxiestreams.su/soccer-streams-6",
+      "stream_url": "https://admin2.pawtner.com.au/wolves.m3u8",
+      "alive": true,
+      "max_resolution": 720,
+      "status": "Direct media playlist (single variant)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Cruzeiro vs Atletico Mineiro",
+      "page_url": "https://roxiestreams.su/soccer-streams-15",
+      "stream_url": "https://admin2.pawtner.com.au/sportv.m3u8",
+      "alive": true,
+      "max_resolution": 720,
+      "status": "Direct media playlist (single variant)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Independiente Valle vs Deportes Tolima",
+      "page_url": "https://roxiestreams.su/soccer-streams-16",
+      "stream_url": "https://admin2.pawtner.com.au/beines.m3u8",
+      "alive": true,
+      "max_resolution": 720,
+      "status": "Direct media playlist (single variant)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Valencia vs Real Betis",
+      "page_url": "https://roxiestreams.su/soccer-streams-17",
+      "stream_url": "https://admin2.pawtner.com.au/dep.m3u8",
+      "alive": true,
+      "max_resolution": 720,
+      "status": "Direct media playlist (single variant)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Monterrey vs Chicago Fire",
+      "page_url": "https://roxiestreams.su/soccer-streams-7",
+      "stream_url": "https://admin2.pawtner.com.au/mlses.m3u8",
+      "alive": true,
+      "max_resolution": 720,
+      "status": "Direct media playlist (single variant)",
+      "variants": []
+    },
+    {
+      "sport": "FIGHTING",
+      "title": "Dana White's Contender Series",
+      "page_url": "https://roxiestreams.su/ppv-streams-1",
+      "stream_url": "https://admin2.pawtner.com.au/ppv.m3u8",
+      "alive": true,
+      "max_resolution": 720,
+      "status": "Direct media playlist (single variant)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "LASK Linz vs Celtic",
+      "page_url": "https://roxiestreams.su/soccer-streams-14",
+      "stream_url": "https://admin2.pawtner.com.au/prem.m3u8",
+      "alive": true,
+      "max_resolution": 720,
+      "status": "Direct media playlist (single variant)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "LASK Linz vs Celtic",
+      "page_url": "https://roxiestreams.su/soccer-streams-14",
+      "stream_url": "https://tedesco.pawtner.com.au/prem.m3u8",
+      "alive": true,
+      "max_resolution": 720,
+      "status": "Direct media playlist (single variant)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Bod\u00f8 / Glimt vs NEC",
+      "page_url": "https://roxiestreams.su/soccer-streams-13",
+      "stream_url": "https://admin2.pawtner.com.au/tnt.m3u8",
+      "alive": true,
+      "max_resolution": 720,
+      "status": "Direct media playlist (single variant)",
+      "variants": []
+    }
+  ],
+  "inactive_events": [
+    {
+      "sport": "MLB",
+      "title": "Fighting",
+      "page_url": "https://roxiestreams.su/fighting",
+      "stream_url": null,
+      "alive": false,
+      "max_resolution": null,
+      "status": "No active stream endpoint on match page (pre-match / offline)",
+      "variants": []
+    },
+    {
+      "sport": "MLB",
+      "title": "Cleveland Guardians vs Los Angeles Angels",
+      "page_url": "https://roxiestreams.su/mlb-streams-10",
+      "stream_url": "https://admin2.formaturamaxi.com.br/mlb10.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "MLB",
+      "title": "Milwaukee Brewers vs New York Mets",
+      "page_url": "https://roxiestreams.su/mlb-streams-6",
+      "stream_url": "https://admin2.formaturamaxi.com.br/mlb6.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "MLB",
+      "title": "Texas Rangers vs Chicago White Sox",
+      "page_url": "https://roxiestreams.su/mlb-streams-8",
+      "stream_url": "https://admin2.formaturamaxi.com.br/mlb8.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "MLB",
+      "title": "Colorado Rockies vs Washington Nationals",
+      "page_url": "https://roxiestreams.su/mlb-streams-3",
+      "stream_url": "https://admin2.formaturamaxi.com.br/mlb3.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "MLB",
+      "title": "Kansas City Royals vs Toronto Blue Jays",
+      "page_url": "https://roxiestreams.su/mlb-streams-5",
+      "stream_url": "https://admin2.formaturamaxi.com.br/mlb5.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "MLB",
+      "title": "Baltimore Orioles vs St. Louis Cardinals",
+      "page_url": "https://roxiestreams.su/mlb-streams-9",
+      "stream_url": "https://admin2.formaturamaxi.com.br/mlb9.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "MLB",
+      "title": "Chicago Cubs vs Arizona Diamondbacks",
+      "page_url": "https://roxiestreams.su/mlb-streams-11",
+      "stream_url": "https://admin2.formaturamaxi.com.br/mlb11.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "MLB",
+      "title": "Los Angeles Dodgers vs Atlanta Braves",
+      "page_url": "https://roxiestreams.su/mlb-streams-7",
+      "stream_url": "https://admin2.formaturamaxi.com.br/mlb7.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "MLB",
+      "title": "Pittsburgh Pirates vs San Diego Padres",
+      "page_url": "https://roxiestreams.su/mlb-streams-12",
+      "stream_url": "https://admin2.formaturamaxi.com.br/mlb12.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "MLB",
+      "title": "Minnesota Twins vs Athletics",
+      "page_url": "https://roxiestreams.su/mlb-streams-13",
+      "stream_url": "https://admin2.formaturamaxi.com.br/mlb13.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "MLB",
+      "title": "Philadelphia Phillies vs Seattle Mariners",
+      "page_url": "https://roxiestreams.su/mlb-streams-14",
+      "stream_url": "https://admin2.formaturamaxi.com.br/mlb14.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "MLB",
+      "title": "Houston Astros vs New York Yankees",
+      "page_url": "https://roxiestreams.su/mlb-streams-4",
+      "stream_url": "https://admin2.formaturamaxi.com.br/mlb4.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Abha vs Al Khaleej",
+      "page_url": "https://roxiestreams.su/soccer-streams-1",
+      "stream_url": "https://tedesco.formaturamaxi.com.br/cbssn.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Ipswich Town vs Leicester CIty",
+      "page_url": "https://roxiestreams.su/soccer-streams-8",
+      "stream_url": "https://admin2.formaturamaxi.com.br/ipswich.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Birmingham City vs Brentford",
+      "page_url": "https://roxiestreams.su/soccer-streams-11",
+      "stream_url": "https://tedesco.formaturamaxi.com.br/plus.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Birmingham City vs Brentford",
+      "page_url": "https://roxiestreams.su/soccer-streams-11",
+      "stream_url": "https://admin2.formaturamaxi.com.br/brentford.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Plymouth Argyle vs Coventry City",
+      "page_url": "https://roxiestreams.su/soccer-streams-10",
+      "stream_url": "https://admin2.formaturamaxi.com.br/ply.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Southampton vs West Ham",
+      "page_url": "https://roxiestreams.su/soccer-streams-9",
+      "stream_url": "https://admin2.formaturamaxi.com.br/westham.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Nottingham vs Leeds",
+      "page_url": "https://roxiestreams.su/soccer-streams-12",
+      "stream_url": "https://admin2.formaturamaxi.com.br/leeds.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Monterrey vs Chicago Fire",
+      "page_url": "https://roxiestreams.su/soccer-streams-7",
+      "stream_url": "https://admin2.formaturamaxi.com.br/mls.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "NBA",
+      "title": "Portland Fire vs Dallas Wings",
+      "page_url": "https://roxiestreams.su/wnba-streams-2",
+      "stream_url": "https://tedesco.formaturamaxi.com.br/wnba2.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "FIGHTING",
+      "title": "WWE NXT",
+      "page_url": "https://roxiestreams.su/wwe-streams",
+      "stream_url": "https://admin2.formaturamaxi.com.br/wwe.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "FIGHTING",
+      "title": "WWE NXT",
+      "page_url": "https://roxiestreams.su/wwe-streams",
+      "stream_url": "https://tedesco.formaturamaxi.com.br/wwe.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "FIGHTING",
+      "title": "Dana White's Contender Series",
+      "page_url": "https://roxiestreams.su/ppv-streams-1",
+      "stream_url": "https://tedesco.formaturamaxi.com.br/ppv.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "NFL",
+      "title": "Ohio Dominican vs Morehead State",
+      "page_url": "https://roxiestreams.su/ncaa-streams-1",
+      "stream_url": "https://admin2.formaturamaxi.com.br/win.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Le\u00f3n vs Real Salt Lake",
+      "page_url": "https://roxiestreams.su/soccer-streams-3",
+      "stream_url": "https://tedesco.pawtner.com.au/mls2.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Not Found (HTTP 404)",
+      "variants": []
+    },
+    {
+      "sport": "SOCCER",
+      "title": "Bod\u00f8 / Glimt vs NEC",
+      "page_url": "https://roxiestreams.su/soccer-streams-13",
+      "stream_url": "https://tedesco.pawtner.com.au/virgin.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Invalid HLS response format",
+      "variants": []
+    },
+    {
+      "sport": "NHL",
+      "title": "NHL Draft 2026",
+      "page_url": "https://roxiestreams.su/nhl-streams-1",
+      "stream_url": "https://admin2.formaturamaxi.com.br/nhl.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Geoblocked/Unauthorized (HTTP 403)",
+      "variants": []
+    },
+    {
+      "sport": "NHL",
+      "title": "NHL Draft 2026",
+      "page_url": "https://roxiestreams.su/nhl-streams-1",
+      "stream_url": "https://tedesco.pawtner.com.au/nhl.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Not Found (HTTP 404)",
+      "variants": []
+    },
+    {
+      "sport": "NBA",
+      "title": "Chicago Sky vs Connecticut Sun",
+      "page_url": "https://roxiestreams.su/wnba-streams-1",
+      "stream_url": "https://tedesco.pawtner.com.au/wnba.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Connection Timeout",
+      "variants": []
+    },
+    {
+      "sport": "NBA",
+      "title": "Washington Mystics vs Phoenix Mercury",
+      "page_url": "https://roxiestreams.su/wnba-streams-3",
+      "stream_url": "https://tedesco.pawtner.com.au/wnba3.m3u8",
+      "alive": false,
+      "max_resolution": null,
+      "status": "Connection Timeout",
+      "variants": []
+    }
+  ]
+}

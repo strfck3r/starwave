@@ -1,0 +1,5 @@
+#EXTM3U name="The Crew Sports IPTV"
+#EXTINF:-1 tvg-id="crew_red_bull_tv_1" tvg-name="Red Bull TV" tvg-chno="9013" tvg-logo="https://image.redbull.com/rbcom/010/2016-10-01/1331821221085_2/0010/1/1050/656/1/red-bull-tv.png" group-title="The Crew Sports",Red Bull TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
