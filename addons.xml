@@ -120,7 +120,7 @@
 		</news>
 	</extension>
 </addon>
-<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="4.16.0" provider-name="StarWave">
+<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="4.16.1" provider-name="StarWave">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -131,7 +131,8 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Install builds and switch layouts for StarWave</summary>
         <description lang="en_GB">Installs and updates StarWave builds, and switches between layouts. Update keeps your Kodi settings, sources, favourites and every add-on login; Fresh Install resets to the build defaults. Switching layout changes only the skin and its menu - credentials and preferences are never touched, because no skin stores them. Kodi is closed at the end; reopen it to finish.</description>
-        <news>4.16.0 - Allow re-applying active layout configurations and refresh updated skinvariables nodes from the repository.
+        <news>4.16.1 - Fully automated PVR IPTV Simple & IPTV Merge self-configuration on startup across Android and SteamOS.
+4.16.0 - Allow re-applying active layout configurations and refresh updated skinvariables nodes from the repository.
 4.15.1 - Fix submenu group resolution: key Sports and TV submenu files to sanitized plugin IDs (plugin-video-thecrew, slyguy-pluto-tv-provider).
 4.15.0 - Phase 2: SlyGuy FAST channels (Pluto TV, Samsung TV Plus, The Roku Channel) and dedicated TV home section.
 4.14.0 - Phase 1 home menu rebuild: 5+5 Settings grid with version rules and static skin tiles, dedicated Sports section with The Crew routes, Quit tile in Settings.
