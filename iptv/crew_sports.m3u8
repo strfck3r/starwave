@@ -1,5 +1,75 @@
-#EXTM3U name="The Crew Sports IPTV"
-#EXTINF:-1 tvg-id="crew_red_bull_tv_1" tvg-name="Red Bull TV" tvg-chno="9013" tvg-logo="https://image.redbull.com/rbcom/010/2016-10-01/1331821221085_2/0010/1/1050/656/1/red-bull-tv.png" group-title="The Crew Sports",Red Bull TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTM3U name="StarWave Canonical Sports"
+#EXTINF:-1 tvg-id="sw_sports_fighting_tszyu_vs_mahoney" tvg-name="Tszyu vs. Mahoney" tvg-chno="9101" tvg-logo="special://skin/extras/icons/sw/ufc.png" group-title="Live Sports (FIGHTING)",[FIGHTING] Tszyu vs. Mahoney (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://roxiestreams.su/
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://roxiestreams.su/
+#EXT-X-BACKUP-URL:https://admin2.pawtner.com.au/ppv.m3u8
+https://tedesco.pawtner.com.au/ppv.m3u8
+#EXTINF:-1 tvg-id="sw_sports_mlb_chicago_cubs_vs_arizona_diamondbacks" tvg-name="Chicago Cubs vs Arizona Diamondbacks" tvg-chno="9102" tvg-logo="special://skin/extras/icons/sw/mlb.png" group-title="Live Sports (MLB)",[MLB] Chicago Cubs vs Arizona Diamondbacks (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://roxiestreams.su/
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://roxiestreams.su/
+https://admin2.pawtner.com.au/mlb2.m3u8
+#EXTINF:-1 tvg-id="sw_sports_nba_golden_state_valkyries_vs_connecticut_sun" tvg-name="Golden State Valkyries vs Connecticut Sun" tvg-chno="9103" tvg-logo="special://skin/extras/icons/sw/nba.png" group-title="Live Sports (NBA)",[NBA] Golden State Valkyries vs Connecticut Sun (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://roxiestreams.su/
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://roxiestreams.su/
+https://tedesco.pawtner.com.au/wnba.m3u8
+#EXTINF:-1 tvg-id="sw_sports_nfl_ohio_dominican_vs_morehead_state" tvg-name="Ohio Dominican vs Morehead State" tvg-chno="9104" tvg-logo="special://skin/extras/icons/sw/nfl.png" group-title="Live Sports (NFL)",[NFL] Ohio Dominican vs Morehead State (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://roxiestreams.su/
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://roxiestreams.su/
+https://admin2.pawtner.com.au/win.m3u8
+#EXTINF:-1 tvg-id="sw_sports_soccer_aek_athens_vs_levski_sofia" tvg-name="AEK Athens vs Levski Sofia" tvg-chno="9105" tvg-logo="special://skin/extras/icons/film.png" group-title="Live Sports (SOCCER)",[SOCCER] AEK Athens vs Levski Sofia (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://roxiestreams.su/
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://roxiestreams.su/
+https://admin2.pawtner.com.au/athens.m3u8
+#EXTINF:-1 tvg-id="sw_sports_soccer_amrica_vs_columbus_crew" tvg-name="América vs Columbus Crew" tvg-chno="9106" tvg-logo="special://skin/extras/icons/film.png" group-title="Live Sports (SOCCER)",[SOCCER] América vs Columbus Crew (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://roxiestreams.su/
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://roxiestreams.su/
+https://admin2.pawtner.com.au/tudn.m3u8
+#EXTINF:-1 tvg-id="sw_sports_soccer_newcastle_vs_west_bromwich" tvg-name="Newcastle vs West Bromwich" tvg-chno="9107" tvg-logo="special://skin/extras/icons/film.png" group-title="Live Sports (SOCCER)",[SOCCER] Newcastle vs West Bromwich (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://roxiestreams.su/
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://roxiestreams.su/
+https://admin2.pawtner.com.au/plus.m3u8
+#EXTINF:-1 tvg-id="sw_sports_soccer_river_plate_vs_santa_fe" tvg-name="River Plate vs Santa Fe" tvg-chno="9108" tvg-logo="special://skin/extras/icons/film.png" group-title="Live Sports (SOCCER)",[SOCCER] River Plate vs Santa Fe (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://roxiestreams.su/
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://roxiestreams.su/
+https://tedesco.pawtner.com.au/beines.m3u8
+#EXTINF:-1 tvg-id="sw_sports_soccer_santos_vs_palmeiras" tvg-name="Santos vs Palmeiras" tvg-chno="9109" tvg-logo="special://skin/extras/icons/film.png" group-title="Live Sports (SOCCER)",[SOCCER] Santos vs Palmeiras (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://roxiestreams.su/
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://roxiestreams.su/
+https://tedesco.pawtner.com.au/sportv.m3u8
+#EXTINF:-1 tvg-id="sw_sports_soccer_toluca_vs_austin" tvg-name="Toluca vs Austin" tvg-chno="9110" tvg-logo="special://skin/extras/icons/film.png" group-title="Live Sports (SOCCER)",[SOCCER] Toluca vs Austin (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://roxiestreams.su/
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://roxiestreams.su/
+#EXT-X-BACKUP-URL:https://admin2.pawtner.com.au/tudn.m3u8
+https://admin2.pawtner.com.au/fs1.m3u8
+#EXTINF:-1 tvg-id="sw_sports_soccer_tottenham_vs_charlton" tvg-name="Tottenham vs Charlton" tvg-chno="9111" tvg-logo="special://skin/extras/icons/film.png" group-title="Live Sports (SOCCER)",[SOCCER] Tottenham vs Charlton (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://roxiestreams.su/
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://roxiestreams.su/
+https://tedesco.pawtner.com.au/tott.m3u8
+#EXTINF:-1 tvg-id="sw_sports_soccer_vasco_gama_vs_vitoria" tvg-name="Vasco Gama vs Vitoria" tvg-chno="9112" tvg-logo="special://skin/extras/icons/film.png" group-title="Live Sports (SOCCER)",[SOCCER] Vasco Gama vs Vitoria (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://roxiestreams.su/
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://roxiestreams.su/
+https://admin2.pawtner.com.au/sportv2.m3u8

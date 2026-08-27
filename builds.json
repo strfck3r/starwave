@@ -3,16 +3,16 @@
     "builds": [
         {
             "id": "starwave",
-            "name": "StarWave v4 (clean)",
+            "name": "StarWave v5 (clean)",
             "repo": "strfck3r/starwave-builds",
-            "tag": "v4",
-            "description": "The stock StarWave build, version 4 - skin, home menu, widgets, Live TV Guide, Sports Hub, and 108 add-ons. It carries no personal configuration and no credentials, and leaves audio and display at Kodi defaults so it works on any device. Choose Update to keep your own settings and logins, or Fresh Install to reset them."
+            "tag": "v5",
+            "description": "The stock StarWave build, version 5 - Arctic Fuse 3 & Aura layouts, 1-Game-1-Card Canonical Sports Hub, Live TV EPG auto-sync, and 108 add-ons. It carries no personal configuration and no credentials, and leaves audio and display at Kodi defaults so it works on any device. Choose Update to keep your own settings and logins, or Fresh Install to reset them."
         },
         {
             "id": "strfck3r",
-            "name": "STRFCK3R v4 (personal)",
+            "name": "STRFCK3R v5 (personal)",
             "repo": "strfck3r/starwave-builds",
-            "tag": "v4",
+            "tag": "v5",
             "description": "STRFCK3R personal configuration with custom layout and settings. Sign in to your own services via Trakt > Setup."
         }
     ],
@@ -31,5 +31,5 @@
             "description": "Arctic Fuse 3, with home rows built from your Trakt lists and a submenu for the source add-ons. Downloads the skin if this device does not have it."
         }
     ],
-    "version": "4"
+    "version": "5"
 }
