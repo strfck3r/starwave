@@ -120,7 +120,7 @@
 		</news>
 	</extension>
 </addon>
-<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="5.3.0" provider-name="StarWave">
+<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="5.3.2" provider-name="StarWave">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -131,7 +131,8 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Install builds and switch layouts for StarWave</summary>
         <description lang="en_GB">Installs and updates StarWave builds, and switches between layouts. Update keeps your Kodi settings, sources, favourites and every add-on login; Fresh Install resets to the build defaults. Switching layout changes only the skin and its menu - credentials and preferences are never touched, because no skin stores them. Kodi is closed at the end; reopen it to finish.</description>
-        <news>5.3.0 - Live TV guide now fed directly by the SlyGuy providers, so it refreshes itself instead of expiring; restored the backup stream provider after its old domain went dead; the version screen now shows date, time and timezone, and which accounts this device is signed in to.
+        <news>5.3.1 - The Live TV guide keeps its previous channel source.
+5.3.0 - Live TV guide now fed directly by the SlyGuy providers, so it refreshes itself instead of expiring; restored the backup stream provider after its old domain went dead; the version screen now shows date, time and timezone, and which accounts this device is signed in to.
 5.2.0 - Sports Hub lists live games from ESPN and resolves a stream when you click one.
 5.1.0 - The live-stream fix is now re-applied at every start rather than only when it is run by hand.
 5.0.0 - StarWave v5: Integrated Canonical Sports Engine (1 Game = 1 Card) into Arctic Fuse 3 Wall Landscape Sports Hub, Live TV EPG auto-sync, and native Top Drawer shortcuts.
