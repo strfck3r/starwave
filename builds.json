@@ -4,8 +4,7 @@
         {
             "id": "starwave",
             "name": "StarWave v5 (clean)",
-            "repo": "strfck3r/starwave-builds",
-            "tag": "v5",
+            "url": "https://github.com/strfck3r/starwave/releases/latest/download/StarWave-V1-kodi.zip",
             "description": "The stock StarWave build, version 5 - Arctic Fuse 3 & Aura layouts, 1-Game-1-Card Canonical Sports Hub, Live TV EPG auto-sync, and 108 add-ons. It carries no personal configuration and no credentials, and leaves audio and display at Kodi defaults so it works on any device. Choose Update to keep your own settings and logins, or Fresh Install to reset them."
         },
         {
@@ -13,7 +12,7 @@
             "name": "STRFCK3R v5 (personal)",
             "repo": "strfck3r/starwave-builds",
             "tag": "v5",
-            "description": "STRFCK3R personal configuration with custom layout and settings. Sign in to your own services via Trakt > Setup."
+            "description": "STRFCK3R personal configuration with custom layout and settings. Enter GitHub token to access."
         }
     ],
     "layouts": [
