@@ -62,7 +62,7 @@
 		<news>- first version for Kodi Nexus</news>
 	</extension>
 </addon>
-<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="5.7.1" provider-name="StarWave">
+<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="5.7.2" provider-name="StarWave">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -73,7 +73,8 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Install builds and switch layouts for StarWave</summary>
         <description lang="en_GB">Installs and updates StarWave builds, and switches between layouts. Update keeps your Kodi settings, sources, favourites and every add-on login; Fresh Install resets to the build defaults. Switching layout changes only the skin and its menu - credentials and preferences are never touched, because no skin stores them. Kodi is closed at the end; reopen it to finish.</description>
-        <news>5.7.1 - Restored graphical QR Code modal dialog with robust WindowXML lifecycle and focused responsive Cancel button.
+        <news>5.7.2 - Fixed 'Sign in once' menu rendering by exporting get_targets_summary in fan-out module with defensive fallback.
+5.7.1 - Restored graphical QR Code modal dialog with robust WindowXML lifecycle and focused responsive Cancel button.
 5.7.0 - Streamlined 1-2-3 onboarding hierarchy; fixed carousel tile label clipping in Arctic Fuse; preserve paired GitHub token across Fresh Installs; fixed QR auth dialog cancellation and polling responsiveness.
 5.6.2 - Fix Refresh Widgets &amp; Reload Skin navigation to directly activate Home window; fix Clear Logins and Check Updates NameErrors.
 5.6.1 - Real-time remote repository version query on 'Check for updates' with explicit toast notifications and startup update confirmation.
