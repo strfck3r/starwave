@@ -120,7 +120,7 @@
 		</news>
 	</extension>
 </addon>
-<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="5.5.7" provider-name="StarWave">
+<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="5.5.8" provider-name="StarWave">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -131,7 +131,8 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Install builds and switch layouts for StarWave</summary>
         <description lang="en_GB">Installs and updates StarWave builds, and switches between layouts. Update keeps your Kodi settings, sources, favourites and every add-on login; Fresh Install resets to the build defaults. Switching layout changes only the skin and its menu - credentials and preferences are never touched, because no skin stores them. Kodi is closed at the end; reopen it to finish.</description>
-        <news>5.5.7 - Configure sync_source_upnext to Trakt cloud sync in TMDb Helper fan-out to guarantee identical real-time In-Progress and Next-Up rows across all devices.
+        <news>5.5.8 - Interactive granular account revocation allowing individual provider clearance (Real-Debrid, Premiumize, AllDebrid, Trakt, GitHub) without blanket wiping unrelated accounts.
+5.5.7 - Configure sync_source_upnext to Trakt cloud sync in TMDb Helper fan-out to guarantee identical real-time In-Progress and Next-Up rows across all devices.
 5.5.6 - Added automatic TMDb Helper sync patch verification in background service to prevent in-progress widget crashes across all installs.
 5.5.5 - Harmonized Trakt OAuth Client Credentials across TMDb Helper, Seren, Umbrella, and The Crew; properly structured JSON stored authorization dictionary for TMDb Helper Trakt token.
 5.5.4 - Fix TMDb Helper Trakt fan-out token format and direct disk settings flush to immediately populate In-Progress and Next-Up home widgets.
