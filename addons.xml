@@ -120,7 +120,7 @@
 		</news>
 	</extension>
 </addon>
-<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="5.5.2" provider-name="StarWave">
+<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="5.5.3" provider-name="StarWave">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -131,7 +131,8 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Install builds and switch layouts for StarWave</summary>
         <description lang="en_GB">Installs and updates StarWave builds, and switches between layouts. Update keeps your Kodi settings, sources, favourites and every add-on login; Fresh Install resets to the build defaults. Switching layout changes only the skin and its menu - credentials and preferences are never touched, because no skin stores them. Kodi is closed at the end; reopen it to finish.</description>
-        <news>5.5.2 - Atomic SIGKILL shutdown engine to prevent Flatpak/SteamOS background thread deadlocks and zombie process hangs; seamless modal completion dialogs.
+        <news>5.5.3 - Bundled solid PNG media textures for AuthProgress dialog to ensure opaque modal card across all skin engines; added universal Enter/Select/Click action handling for instant Cancel responsiveness.
+5.5.2 - Atomic SIGKILL shutdown engine to prevent Flatpak/SteamOS background thread deadlocks and zombie process hangs; seamless modal completion dialogs.
 5.5.1 - Sequential 1-2-3 setup flow (Unlock Builds with GitHub QR, Install/Update, Sign in once); full opaque backdrop for auth dialogs; customizable fan-out target filtering with opt-in defaults; added Refresh Widgets &amp; Reload Skin action.
 5.5.0 - Arctic Fuse 3 set as default on fresh install; scannable QR codes added for Real-Debrid, Premiumize, AllDebrid, Trakt, and GitHub device auth; 15-min Real-Debrid polling timeout; customizable Fan-Out target add-on filtering; Fresh Wipe preserves File Manager sources and re-seeds wizard; IPTV startup modal popup storm suppression; clean Trakt state on fresh install.
 5.4.3 - Streamlined menu: removed obsolete items (Repair Streaming, Back up settings, Reset audio/display); fixed live version reporting in device readout.
