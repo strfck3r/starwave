@@ -62,65 +62,7 @@
 		<news>- first version for Kodi Nexus</news>
 	</extension>
 </addon>
-<addon id="plugin.program.LegionHubs" version="1.1.9" name="Star Hubs" provider-name="primaeval, Ryski Mod">
-<requires>
-  <import addon="xbmc.python" version="3.0.0"/>
-  <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  <import addon="script.module.requests" version="2.9.1" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>executable</provides>
-</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Addon to Provide R-Kade Widgets And Setup Shortcuts for the Popular Addons</summary>
-		<description>Addon to Provide R-Kade Widgets And Setup Shortcuts for the Popular Addons</description>
-
-
-
-
-
-		<assets>
-				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.jpg</fanart>
-				<banner></banner>
-				<clearlogo></clearlogo>
-				<screenshot></screenshot>
-		</assets>
-	</extension>
-</addon>
-<addon id="script.module.myaccounts" version="2.0.7" name="My Accounts PN" provider-name="Venom, Fen, Ryski Mod">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0" />
-		<import addon="script.module.requests" version="2.19.1" />
-	</requires>
-	<extension point="xbmc.python.script" library="lib/default.py">
-		<provides>executable</provides>
-	</extension>
-	<!--<extension point="xbmc.service" library="lib/service.py" start="startup" />-->
-	<extension point="xbmc.python.module" library="lib" /> <!-- Must be placed after xbmc.python.pluginsource, otherwise the addon does not show in the repository. -->
-	<extension point="xbmc.addon.metadata">
-		<reuselanguageinvoker>false</reuselanguageinvoker>
-		<summary lang="en">My Accounts Module</summary>
-		<description>Single placeholder for all your accounts.</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<forum></forum>
-		<website>https://github.com/Mr-Kodi/repository.myaccounts</website>
-		<source>https://github.com/Mr-Kodi/repository.myaccounts</source>
-		<disclaimer lang="en">The author is not responsible for the use of this addon. [CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.png</fanart>
-			<screenshot></screenshot>
-		</assets>
-		<news>
-[B][COLOR red]Update - v2.0.0 - Nov. 23, 2021[/COLOR][/B]
-[COLOR yellow]--[/COLOR][I] First official py3 only version for Kodi Matrix.[/I]
-[COLOR yellow]--[/COLOR][I] Fixed issue with "check for updates" using old github url.[/I]
-		</news>
-	</extension>
-</addon>
-<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="5.6.2" provider-name="StarWave">
+<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="5.7.0" provider-name="StarWave">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -131,7 +73,8 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Install builds and switch layouts for StarWave</summary>
         <description lang="en_GB">Installs and updates StarWave builds, and switches between layouts. Update keeps your Kodi settings, sources, favourites and every add-on login; Fresh Install resets to the build defaults. Switching layout changes only the skin and its menu - credentials and preferences are never touched, because no skin stores them. Kodi is closed at the end; reopen it to finish.</description>
-        <news>5.6.2 - Fix Refresh Widgets &amp; Reload Skin navigation to directly activate Home window; fix Clear Logins and Check Updates NameErrors.
+        <news>5.7.0 - Streamlined 1-2-3 onboarding hierarchy; fixed carousel tile label clipping in Arctic Fuse; preserve paired GitHub token across Fresh Installs; fixed QR auth dialog cancellation and polling responsiveness.
+5.6.2 - Fix Refresh Widgets &amp; Reload Skin navigation to directly activate Home window; fix Clear Logins and Check Updates NameErrors.
 5.6.1 - Real-time remote repository version query on 'Check for updates' with explicit toast notifications and startup update confirmation.
 5.6.0 - Clean Signed In row to only display actively connected services without 'missing' noise; cleanly reset wizard menu stack to root upon reloading skin.
 5.5.9 - Fix GitHub token check in granular revocation selector and navigate directly to Home screen upon clicking Refresh Widgets &amp; Reload Skin.
