@@ -1,6 +1,6 @@
 # Regenerate the StarWave EPG in the repository GitHub Pages actually serves.
 #
-# THIS FILE BELONGS IN strfck3r/starwave (the PUBLIC Kodi repo), NOT in starwave-docs.
+# THIS FILE BELONGS IN the public Kodi repo, NOT in the private workshop repo.
 # See adr/001-epg-scheduled-regeneration.md in the workshop repo for why.
 #
 # CADENCE IS NOT ARBITRARY. Measured 2026-09-03 against the live upstreams:
