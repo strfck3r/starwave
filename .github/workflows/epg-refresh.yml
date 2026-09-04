@@ -1,0 +1,98 @@
+# Regenerate the StarWave EPG in the repository GitHub Pages actually serves.
+#
+# THIS FILE BELONGS IN strfck3r/starwave (the PUBLIC Kodi repo), NOT in starwave-docs.
+# See adr/001-epg-scheduled-regeneration.md in the workshop repo for why.
+#
+# CADENCE IS NOT ARBITRARY. Measured 2026-09-03 against the live upstreams:
+# Samsung TV Plus publishes only ~5h of forward programme data (Roku publishes ~69h).
+# 512 of the 799 playlist channels are Samsung, so anything slower than about
+# four-hourly leaves two thirds of the guide dark for most of the day. Three-hourly
+# leaves roughly 2x margin for GitHub's scheduled-run delays, which can be tens of
+# minutes under load.
+name: Refresh EPG
+
+on:
+  schedule:
+    - cron: '7 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: epg-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    # The default job timeout is 360 minutes. This job downloads and parses two
+    # third-party feeds, and the parser uses non-greedy regexes that degrade badly if a
+    # closing tag is ever absent - so a hang is a real shape, not a hypothetical. A hung
+    # run holds the epg-refresh concurrency group for six hours, which means the next
+    # two scheduled refreshes never start AND the failure email that is this job's only
+    # alarm arrives six hours late. A healthy run is well under a minute.
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # generate-epg.py exits non-zero when the build is unfit (2) or upstream failed
+      # (3), and refuses to overwrite the existing artifact in either case. A red run
+      # is the alarm: GitHub emails the repo owner when a scheduled workflow fails.
+      # Without this the job would "succeed" while shipping an expired guide, which is
+      # exactly how the 2026-09-03 incident stayed invisible until a television showed it.
+      - name: Regenerate EPG
+        env:
+          EPG_OUT_XML: iptv/epg.xml
+          EPG_OUT_GZ: iptv/epg.xml.gz
+          EPG_PLAYLIST: iptv/channels.m3u8
+        run: python3 .epg/generate-epg.py
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          git config user.name  "starwave-epg-bot"
+          git config user.email "starwave-epg-bot@users.noreply.github.com"
+          git add iptv/epg.xml iptv/epg.xml.gz
+          if git diff --cached --quiet; then
+            echo "EPG unchanged - nothing to publish."
+            exit 0
+          fi
+          git commit -m "EPG refresh $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+
+          # Push with an explicit refspec rather than a bare `git push`. A bare push
+          # depends on actions/checkout having created a tracking branch and on
+          # push.default=simple; both hold today under `schedule`, but neither is
+          # promised, and a workflow_dispatch from a tag or an arbitrary ref lands on a
+          # detached HEAD where a bare push fails outright.
+          #
+          # Retry on rejection. This job's ONLY alarm is the failure email, so a red run
+          # for a reason that is not "the EPG is broken" is worse than it looks: an alarm
+          # that cries wolf stops being read, and this one has to survive being the sole
+          # signal for years. A manual `publish-repo.sh` landing between our fetch and our
+          # push is an ordinary, expected race - roughly the frequency of a docs publish -
+          # so it is retried rather than reported. Rebase, not merge: this is one bot
+          # committing one pair of files, and a merge commit here is noise in a history
+          # the owner reads. Genuine failures still exhaust the attempts and go red.
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "pushed on attempt ${attempt}"
+              exit 0
+            fi
+            echo "push rejected (attempt ${attempt}) - rebasing onto origin/main and retrying"
+            git fetch origin main
+            # Ours is the only commit on top of origin/main, and it touches only the two
+            # EPG paths, so a conflict here means someone hand-edited the published EPG.
+            # Fail loudly rather than resolving it silently in either direction.
+            git rebase origin/main || {
+              echo "rebase conflict on iptv/epg.xml* - a human edited the published EPG; not resolving automatically" >&2
+              exit 1
+            }
+            sleep $((attempt * 5))
+          done
+          echo "push still rejected after 3 attempts" >&2
+          exit 1
