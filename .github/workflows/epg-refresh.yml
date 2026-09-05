@@ -47,7 +47,14 @@ jobs:
       # exactly how the 2026-09-03 incident stayed invisible until a television showed it.
       - name: Regenerate EPG
         env:
-          EPG_OUT_XML: iptv/epg.xml
+          # Written OUTSIDE the checkout on purpose, so it is never committed.
+          # Nothing reads the uncompressed XML: the wizard configures only the
+          # .gz URL (default.py:3136) and the Deck's merge log confirms it
+          # fetches the .gz. Committing it cost ~1,081 KiB of PERMANENT git
+          # history every run - 40% of this job's storage growth - for a file
+          # no device opens. The generator still produces it; the gz is encoded
+          # from it and the health check is unchanged.
+          EPG_OUT_XML: /tmp/epg.xml
           EPG_OUT_GZ: iptv/epg.xml.gz
           EPG_PLAYLIST: iptv/channels.m3u8
         run: python3 .epg/generate-epg.py
@@ -57,7 +64,7 @@ jobs:
           set -euo pipefail
           git config user.name  "starwave-epg-bot"
           git config user.email "starwave-epg-bot@users.noreply.github.com"
-          git add iptv/epg.xml iptv/epg.xml.gz
+          git add iptv/epg.xml.gz
           if git diff --cached --quiet; then
             echo "EPG unchanged - nothing to publish."
             exit 0
