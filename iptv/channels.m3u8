@@ -31,18 +31,10 @@ https://jmp2.uk/rok-5dedf641315cd44f0f2ec96b99855110.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-28844a800a4e54909eec9695aa3762b2.m3u8
-#EXTINF:-1 tvg-id="roku_ee70e4ad68b55abb88e7b95b8940566a" tvg-name="TYT-Go" tvg-chno="192" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/ee70e4ad68b55abb88e7b95b8940566a/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1657585611417_TYTLogo_ForInfoHUD.png" group-title="News",TYT-Go
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-ee70e4ad68b55abb88e7b95b8940566a.m3u8
 #EXTINF:-1 tvg-id="roku_e29e205ea1fb529f996ad862a2d6724e" tvg-name="OAN Plus" tvg-chno="196" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/e29e205ea1fb529f996ad862a2d6724e/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1655144553363_OAN-Plus-hud_centered.png" group-title="News",OAN Plus
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-e29e205ea1fb529f996ad862a2d6724e.m3u8
-#EXTINF:-1 tvg-id="roku_c938a72f44eca56206b4b585ab01cad5" tvg-name="Tennis+" tvg-chno="198" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/c938a72f44eca56206b4b585ab01cad5/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1763502607268_MR-25-027Tennis_Plus_Roku_HUD_260x147px.png" group-title="Sports",Tennis+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-c938a72f44eca56206b4b585ab01cad5.m3u8
 #EXTINF:-1 tvg-id="roku_0b4814b9a5e53029e2b9aba64ddc1df0" tvg-name="Billiard TV" tvg-chno="200" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/0b4814b9a5e53029e2b9aba64ddc1df0/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1755563498113_BilliardTV_Logo_HUDLogo.png" group-title="Billiards",Billiard TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -79,6 +71,10 @@ https://jmp2.uk/rok-0fc01f1136055d89bae495ba92eff445.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-43cf05708aedb8418dbdb286e28c4c1b.m3u8
+#EXTINF:-1 tvg-id="roku_62f1cd0d4c395a2a8ab72cff688666a0" tvg-name="SPORTSGRID" tvg-chno="228" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/62f1cd0d4c395a2a8ab72cff688666a0/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1668537442136_ROKU-SPORTSGRID-LIVE-HUD-LOGO-EFEFEF.png" group-title="Sports",SPORTSGRID
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://jmp2.uk/rok-62f1cd0d4c395a2a8ab72cff688666a0.m3u8
 #EXTINF:-1 tvg-id="roku_a361d429db9e46665be277da42af89a4" tvg-name="Monster Jam" tvg-chno="229" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/a361d429db9e46665be277da42af89a4/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1738945799309_MonsterJam_White_Horizontal_Logo_260x147_HUD.png" group-title="Auto",Monster Jam
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -91,10 +87,6 @@ https://jmp2.uk/rok-ca25dfba8ba45a1bb277c8b0ca8f56c4.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-82bd10ceb52152a7adb6bdc5d776e794.m3u8
-#EXTINF:-1 tvg-id="roku_f450ca31c0f7dde46cfdccb15d2154cb" tvg-name="Speed Sport 1" tvg-chno="233" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/f450ca31c0f7dde46cfdccb15d2154cb/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1775162724998_SPEED_SPORT_1_HUD_logo_260x147.png" group-title="Auto",Speed Sport 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-f450ca31c0f7dde46cfdccb15d2154cb.m3u8
 #EXTINF:-1 tvg-id="roku_c0b79a332cfd90b8eeb6d4a0dcb63674" tvg-name="Top Rank Classics" tvg-chno="240" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/c0b79a332cfd90b8eeb6d4a0dcb63674/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1730998467166_TRClassics_HUD.png" group-title="Boxing",Top Rank Classics
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -131,10 +123,6 @@ https://jmp2.uk/rok-9ec48964d9b9502396f19fcb3a527074.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-5976983fa00953dab911a0ebea932943.m3u8
-#EXTINF:-1 tvg-id="roku_0128b5f756acf1e1c488509fd76b0a61" tvg-name="X Games TV" tvg-chno="265" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/0128b5f756acf1e1c488509fd76b0a61/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1758735344999_X_Games_TV_260x147_White.png" group-title="Action Sports",X Games TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-0128b5f756acf1e1c488509fd76b0a61.m3u8
 #EXTINF:-1 tvg-id="roku_8d8befc9060e861eb1bdd5b21c0403b3" tvg-name="Lifetime Love & Drama" tvg-chno="272" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/8d8befc9060e861eb1bdd5b21c0403b3/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1748881675113_LMLDHUD_logo_efefef_center_aligned_260x147.png" group-title="Comedy",Lifetime Love & Drama
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -163,10 +151,6 @@ https://jmp2.uk/rok-c5cbd4129753f5732d7160596440404f.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-15cc44e50d8453e18f21ea37713319c5.m3u8
-#EXTINF:-1 tvg-id="roku_2deae9b4e83550f88f6776c45df08315" tvg-name="Hi-YAH!" tvg-chno="290" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/2deae9b4e83550f88f6776c45df08315/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1669078606058_Hi-YAH_260x147.png" group-title="Action",Hi-YAH!
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-2deae9b4e83550f88f6776c45df08315.m3u8
 #EXTINF:-1 tvg-id="roku_31d5929928835b90af7bee669e6dd217" tvg-name="El Rey Rebel" tvg-chno="291" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/31d5929928835b90af7bee669e6dd217/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1702918419829_ElReyRebel_Logo_Center_Alligned_260x147.png" group-title="Action",El Rey Rebel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -187,6 +171,10 @@ https://jmp2.uk/rok-b484db42f3d31b6dc2f604d453c694a0.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-d32267711c6a5cf36520716c96b5b3fa.m3u8
+#EXTINF:-1 tvg-id="roku_c5a72a598a355db4b1781ca075280773" tvg-name="FilmRise Western" tvg-chno="319" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/c5a72a598a355db4b1781ca075280773/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1673453694643_FilmRiseWestern_HUDlogo_260x147_copy.png" group-title="Western",FilmRise Western
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://jmp2.uk/rok-c5a72a598a355db4b1781ca075280773.m3u8
 #EXTINF:-1 tvg-id="roku_8346cc0f3d415e39875fca80b67fd951" tvg-name="Universal Westerns" tvg-chno="320" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/8346cc0f3d415e39875fca80b67fd951/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1701820121460_Universal-Western-ROKU-HUD-LOGO-260x147.png" group-title="Western",Universal Westerns
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -235,11 +223,11 @@ https://jmp2.uk/rok-92b50144a69f5862a6d398c478fa6aa0.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-707e6e216be8369fb30f6960f8cf667e.m3u8
-#EXTINF:-1 tvg-id="roku_d89b6124edce5dc0a4dfe42a8026353a" tvg-name="Degrassi" tvg-chno="350" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/d89b6124edce5dc0a4dfe42a8026353a/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1775748889190_DEGRASSI_HUD_logo_center_260x147.png.png" group-title="Comedy",Degrassi
+#EXTINF:-1 tvg-id="roku_d89b6124edce5dc0a4dfe42a8026353a" tvg-name="Degrassi" tvg-chno="350" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/d89b6124edce5dc0a4dfe42a8026353a/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1788370744284_US_ROKU_DEGRASSI_INFOHUD_260x147.png" group-title="Comedy",Degrassi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-d89b6124edce5dc0a4dfe42a8026353a.m3u8
-#EXTINF:-1 tvg-id="roku_223627443ebe5007b1b9461cc1ea297e" tvg-name="Life with Derek" tvg-chno="357" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/223627443ebe5007b1b9461cc1ea297e/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1673908127607_Roku_HUD_Logo_2_Life_With_Derek_260x147_Jeff_Cooke.png" group-title="Entertainment",Life with Derek
+#EXTINF:-1 tvg-id="roku_223627443ebe5007b1b9461cc1ea297e" tvg-name="Life with Derek" tvg-chno="357" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/223627443ebe5007b1b9461cc1ea297e/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1788370831477_US_ROKU_LIFEWITHDEREK_INFOHUD_260x147.png" group-title="Entertainment",Life with Derek
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-223627443ebe5007b1b9461cc1ea297e.m3u8
@@ -299,11 +287,11 @@ https://jmp2.uk/rok-b5cde121f98257329346020e2a60295a.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-9aff620ece2457a3a7572886ecae0495.m3u8
-#EXTINF:-1 tvg-id="roku_498b53f6f63455bbba27754ceb5fcefc" tvg-name="Sonic The Hedgehog" tvg-chno="431" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/498b53f6f63455bbba27754ceb5fcefc/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1673905008826_Sonic_the_Hedgehog_HUD_Logo_260x147_Monochromatic.png" group-title="Animated",Sonic The Hedgehog
+#EXTINF:-1 tvg-id="roku_498b53f6f63455bbba27754ceb5fcefc" tvg-name="Sonic The Hedgehog" tvg-chno="431" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/498b53f6f63455bbba27754ceb5fcefc/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1788370948268_US_ROKU_SONIC_INFOHUD_260x147.png" group-title="Animated",Sonic The Hedgehog
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-498b53f6f63455bbba27754ceb5fcefc.m3u8
-#EXTINF:-1 tvg-id="roku_a3c405bfca9b525983054aa761b10dfb" tvg-name="Super Mario Brothers" tvg-chno="433" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/a3c405bfca9b525983054aa761b10dfb/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1694472710975_SuperMarioBrothers_HUDlogo_260x147.png" group-title="Animated",Super Mario Brothers
+#EXTINF:-1 tvg-id="roku_a3c405bfca9b525983054aa761b10dfb" tvg-name="Super Mario Brothers" tvg-chno="433" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/a3c405bfca9b525983054aa761b10dfb/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1788371000634_US_ROKU_SUPERMARIO_INFOHUD_260x147.png" group-title="Animated",Super Mario Brothers
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-a3c405bfca9b525983054aa761b10dfb.m3u8
@@ -315,26 +303,18 @@ https://jmp2.uk/rok-9dd23031622757d1944e4782b2a192ef.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-9cb058af15a0fdacf5aa87b78b2e3d33.m3u8
-#EXTINF:-1 tvg-id="roku_8fd0bc4f08285a12abb872f0b2e320d4" tvg-name="Jamie Oliver" tvg-chno="442" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/8fd0bc4f08285a12abb872f0b2e320d4/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1666809121480_JO_ROKU_HUD_LOGO_260X147_copy.png" group-title="Cooking",Jamie Oliver
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-8fd0bc4f08285a12abb872f0b2e320d4.m3u8
 #EXTINF:-1 tvg-id="roku_ccfcc3307fa908684a95bf9643b1b935" tvg-name="This Old House Shorts" tvg-chno="443" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/ccfcc3307fa908684a95bf9643b1b935/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1754514295581_TOHShorts_InfoHUD_Mono.png" group-title="Educational",This Old House Shorts
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-ccfcc3307fa908684a95bf9643b1b935.m3u8
-#EXTINF:-1 tvg-id="roku_e6416436e5d6510e9e22c23862deea23" tvg-name="Tastemade" tvg-chno="451" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/e6416436e5d6510e9e22c23862deea23/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1732826277678_260x147_hex-efefef_CENTER_TastemadeFood.png" group-title="Food",Tastemade
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-e6416436e5d6510e9e22c23862deea23.m3u8
 #EXTINF:-1 tvg-id="roku_7e9fe2b4c7ba5869af6d60adbf4b7c86" tvg-name="This Old House" tvg-chno="456" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/7e9fe2b4c7ba5869af6d60adbf4b7c86/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1657673284299_THIS_OLD_HOUSE_260x147.png" group-title="Educational",This Old House
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-7e9fe2b4c7ba5869af6d60adbf4b7c86.m3u8
-#EXTINF:-1 tvg-id="roku_2f7855ad196b57fc8e1dcb9cb74ea161" tvg-name="This Old House Makers Channel" tvg-chno="458" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/2f7855ad196b57fc8e1dcb9cb74ea161/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1653084604744_Maker_HudChannelID_CenterAlign.png" group-title="Educational",This Old House Makers Channel
+#EXTINF:-1 tvg-id="roku_c7825e03df4a5bf4bdc87d65b7e3cdbb" tvg-name="This Old House Classic" tvg-chno="457" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/c7825e03df4a5bf4bdc87d65b7e3cdbb/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1652917233272_TOHC_HudChannelID_rev.png" group-title="Educational",This Old House Classic
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-2f7855ad196b57fc8e1dcb9cb74ea161.m3u8
+https://jmp2.uk/rok-c7825e03df4a5bf4bdc87d65b7e3cdbb.m3u8
 #EXTINF:-1 tvg-id="roku_65506c44c9535b3787d255f333e7b1f7" tvg-name="Places & Spaces" tvg-chno="463" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/65506c44c9535b3787d255f333e7b1f7/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1687441710940_1666809188462_P%2526S_ROKU_HUD_LOGO_260X147_copy.png" group-title="Home Improvement",Places & Spaces
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -343,10 +323,6 @@ https://jmp2.uk/rok-65506c44c9535b3787d255f333e7b1f7.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-1d3f60995d80521882a379fc06e47679.m3u8
-#EXTINF:-1 tvg-id="roku_ada4254a1dd65c138f62e7c45affb45c" tvg-name="GARDEN with Monty Don" tvg-chno="466" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/ada4254a1dd65c138f62e7c45affb45c/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1777303688429_GWMD_Rebrand_HUD_Logo.png" group-title="House/Garden",GARDEN with Monty Don
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-ada4254a1dd65c138f62e7c45affb45c.m3u8
 #EXTINF:-1 tvg-id="roku_479fe0d11f3f5132a3f36b617547da3b" tvg-name="Love Nature English" tvg-chno="471" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/479fe0d11f3f5132a3f36b617547da3b/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1738776545554_LoveNature_logos_HUB_Centered.png" group-title="Animals",Love Nature English
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -371,10 +347,6 @@ https://jmp2.uk/rok-b182852fa5860ed0017de42c7b9ce05a.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-0a4f2ecbb9d3f127aa5fc5f31be22842.m3u8
-#EXTINF:-1 tvg-id="roku_95a0b94ff13a4dc14fea6e9eb47ecf09" tvg-name="Tastemade Travel" tvg-chno="492" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/95a0b94ff13a4dc14fea6e9eb47ecf09/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1744402849683_260x147_TastemadeTravel_LogoInfoHUD_Roku.png" group-title="Cooking",Tastemade Travel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-95a0b94ff13a4dc14fea6e9eb47ecf09.m3u8
 #EXTINF:-1 tvg-id="roku_5a1dec25daac971f191b10e808ec0c5d" tvg-name="Tastemade Home" tvg-chno="493" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/5a1dec25daac971f191b10e808ec0c5d/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1744402817287_260x147_TastemadeHome_LogoInfoHUD_Roku.png" group-title="Cooking",Tastemade Home
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -495,10 +467,6 @@ https://jmp2.uk/rok-be6338f82720cc9d9548acfa377a2aab.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-e88ce0afc4f05acc1c35e625128c43e5.m3u8
-#EXTINF:-1 tvg-id="roku_0a1aa26e3e6316eedf422da44cd0999b" tvg-name="The Prof G Channel" tvg-chno="575" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/0a1aa26e3e6316eedf422da44cd0999b/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1775605818359_STV_TPGC-HUD-260x147-W.png" group-title="Bus./Financial",The Prof G Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-0a1aa26e3e6316eedf422da44cd0999b.m3u8
 #EXTINF:-1 tvg-id="roku_07143b8eb2940144933e5faadb8c19e2" tvg-name="Revolt Mixtape" tvg-chno="576" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/07143b8eb2940144933e5faadb8c19e2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1748884189656_REVOLTMIXTAPE_EFEFEF_260x147.png" group-title="Entertainment",Revolt Mixtape
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -663,10 +631,6 @@ https://jmp2.uk/rok-e63d49e8acd7557596d091b3fa262999.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-4b236d75ad3e5831a1707f53e41beede.m3u8
-#EXTINF:-1 tvg-id="roku_20a6aa8be0f3aff9d50f3daf3dfe6ba8" tvg-name="America's Funniest Home Videos" tvg-chno="822" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/20a6aa8be0f3aff9d50f3daf3dfe6ba8/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1769180377871_AFHV_Roku_Info_HUD_Logo_260x147_EFEFEF.png" group-title="Comedy",America's Funniest Home Videos
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-20a6aa8be0f3aff9d50f3daf3dfe6ba8.m3u8
 #EXTINF:-1 tvg-id="roku_067e6b6fa36352ad8984a8d97c9a39d4" tvg-name="FilmRise Creators" tvg-chno="833" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/067e6b6fa36352ad8984a8d97c9a39d4/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1766158180785_RokuChannel_FilmRiseCreators_HUD_Logo_260x147.png" group-title="Entertainment",FilmRise Creators
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -675,11 +639,7 @@ https://jmp2.uk/rok-067e6b6fa36352ad8984a8d97c9a39d4.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-0597d2a4b388b1497a9bf48812e5d070.m3u8
-#EXTINF:-1 tvg-id="roku_3e3a190fdc49eb3b256dc2b5bb30bc5b" tvg-name="Jesser" tvg-chno="837" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/3e3a190fdc49eb3b256dc2b5bb30bc5b/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1779300192122_jesser_logo_hud.png" group-title="Entertainment",Jesser
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-3e3a190fdc49eb3b256dc2b5bb30bc5b.m3u8
-#EXTINF:-1 tvg-id="roku_6212fc29da09d7938c80b54a09f3fd69" tvg-name="Kalogeras Sisters" tvg-chno="838" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/6212fc29da09d7938c80b54a09f3fd69/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1779305539988_kalogeras_sisters_logo_hud.png" group-title="Entertainment",Kalogeras Sisters
+#EXTINF:-1 tvg-id="roku_6212fc29da09d7938c80b54a09f3fd69" tvg-name="Kalogeras Sisters TV" tvg-chno="838" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/6212fc29da09d7938c80b54a09f3fd69/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1779305539988_kalogeras_sisters_logo_hud.png" group-title="Entertainment",Kalogeras Sisters TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-6212fc29da09d7938c80b54a09f3fd69.m3u8
@@ -687,10 +647,6 @@ https://jmp2.uk/rok-6212fc29da09d7938c80b54a09f3fd69.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-37b2f13bddcce8f6a01a34fb69215d4b.m3u8
-#EXTINF:-1 tvg-id="roku_2b54188672a6acb8d3e4c6b9e71a3a7c" tvg-name="Animation+" tvg-chno="840" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/2b54188672a6acb8d3e4c6b9e71a3a7c/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1731519594723_AnimationPlus_Hud_Logo_260x147_no_frame_alpha.png" group-title="Animated",Animation+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-2b54188672a6acb8d3e4c6b9e71a3a7c.m3u8
 #EXTINF:-1 tvg-id="roku_0af429c36c6b517e8df2025e809b3964" tvg-name="Estrella News" tvg-chno="900" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/0af429c36c6b517e8df2025e809b3964/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1652921499084_RoKu_260x147_Estrella_NEWS.png" group-title="News",Estrella News
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -755,10 +711,6 @@ https://jmp2.uk/rok-b3eb95a883bfcd7b458d9ec965cedb35.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-35633f08c98857cb9e85c91eae17c0d5.m3u8
-#EXTINF:-1 tvg-id="roku_735c2b7253c551ae9f07b07ea5278b75" tvg-name="Canela.TV Deportes" tvg-chno="934" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/735c2b7253c551ae9f07b07ea5278b75/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1779312530486_ROKU-Deportes-InfoHUD-1.png" group-title="Sports",Canela.TV Deportes
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-735c2b7253c551ae9f07b07ea5278b75.m3u8
 #EXTINF:-1 tvg-id="roku_04be54c79d1f55d0909e684f64f9fb57" tvg-name="Azteca Deportes Network LITE 3" tvg-chno="939" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/04be54c79d1f55d0909e684f64f9fb57/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1718994621239_AI_Roku_260x147_Mono_DEPORTES_TB_Oct23.png" group-title="Sports",Azteca Deportes Network LITE 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -767,10 +719,6 @@ https://jmp2.uk/rok-04be54c79d1f55d0909e684f64f9fb57.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-43623368b9c3704a5ea138fbaac14735.m3u8
-#EXTINF:-1 tvg-id="roku_e4a278e5f27cc0c97aae4ddbefdbc5e6" tvg-name="Sobreviví" tvg-chno="946" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/e4a278e5f27cc0c97aae4ddbefdbc5e6/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1765924286648_ISBA-LATAM_HUD_logo_260x147.png" group-title="Documentary",Sobreviví
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-e4a278e5f27cc0c97aae4ddbefdbc5e6.m3u8
 #EXTINF:-1 tvg-id="roku_098bce44be895630a3e437516fe70853" tvg-name="Naturaleza Salvaje" tvg-chno="947" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/098bce44be895630a3e437516fe70853/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1704747063109_NaturalezaSalvaje_Image_HUD2.png" group-title="Nature",Naturaleza Salvaje
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -783,10 +731,6 @@ https://jmp2.uk/rok-23cf98a043e9d1336c958e6b707f81dc.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-447d63b6da208bb796b69f0383c474a1.m3u8
-#EXTINF:-1 tvg-id="roku_5dd7bdd7b320a81dd501cfac172db9c1" tvg-name="Homeful en Español" tvg-chno="952" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/5dd7bdd7b320a81dd501cfac172db9c1/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1762753422169_Homeful_Roku_ChannelAssets_Espanol_InfoHudLogo_260x147.png" group-title="Home Improvement",Homeful en Español
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-5dd7bdd7b320a81dd501cfac172db9c1.m3u8
 #EXTINF:-1 tvg-id="roku_427be38e736e5c6e92bd1cec086e941a" tvg-name="ÚNICA TV" tvg-chno="961" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/427be38e736e5c6e92bd1cec086e941a/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1763491674042_LOGO_uNICATV-HUD-HORIZONTALefefef.png" group-title="Entertainment",ÚNICA TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -823,18 +767,18 @@ https://jmp2.uk/rok-e3823bb513585861904499a21a736c4f.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-c5c6a54fbd0328b108453e2537b7eee1.m3u8
-#EXTINF:-1 tvg-id="roku_7913b5796de15cb9ab8dfd392d769dec" tvg-name="Canela.TV Novelas Turcas" tvg-chno="981" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/7913b5796de15cb9ab8dfd392d769dec/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1777924120812_ROKU-Novelas_turcas-InfoHUD-1.png" group-title="Drama",Canela.TV Novelas Turcas
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-7913b5796de15cb9ab8dfd392d769dec.m3u8
 #EXTINF:-1 tvg-id="roku_4010582bb66b58a69151a4f552de0823" tvg-name="FilmRise Series Gratis" tvg-chno="983" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/4010582bb66b58a69151a4f552de0823/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1772664425410_RokuChannel_FilmRiseSeriesGratis_HUD_Logo_260x147.png" group-title="Drama",FilmRise Series Gratis
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-4010582bb66b58a69151a4f552de0823.m3u8
-#EXTINF:-1 tvg-id="roku_acf637e8292736265712e3be566c0e5a" tvg-name="Cinépolis Channel" tvg-chno="984" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/acf637e8292736265712e3be566c0e5a/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1752626860506_HUD-Logo-260x147.png" group-title="Action",Cinépolis Channel
+#EXTINF:-1 tvg-id="roku_7b5699f58b2b54be9da4d23fe354fb59" tvg-name="ViX Villanos de Novela" tvg-chno="987" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/7b5699f58b2b54be9da4d23fe354fb59/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1678481229409_VillanosDeNovela_HUD_Logo_260x147.png" group-title="Entertainment",ViX Villanos de Novela
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-acf637e8292736265712e3be566c0e5a.m3u8
+https://jmp2.uk/rok-7b5699f58b2b54be9da4d23fe354fb59.m3u8
+#EXTINF:-1 tvg-id="roku_0de9839c79b758589c580dcdd4b40a8a" tvg-name="Caso Cerrado" tvg-chno="988" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/0de9839c79b758589c580dcdd4b40a8a/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1747831065584_CASO_CERRADO_260x147_2x1_logo_center_align_EFEFEF_transparent_bkgd_roku.png" group-title="Entertainment",Caso Cerrado
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://jmp2.uk/rok-0de9839c79b758589c580dcdd4b40a8a.m3u8
 #EXTINF:-1 tvg-id="roku_a61227fe8ede21ffc0e223763ccbe42f" tvg-name="Cuando Los Angeles Caen" tvg-chno="989" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/a61227fe8ede21ffc0e223763ccbe42f/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1760152096030_CLAC_260X147_EFEFEF.png" group-title="Entertainment",Cuando Los Angeles Caen
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -907,10 +851,6 @@ https://jmp2.uk/rok-5b4b59af18ff5686916ef5eb3574de46.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-770c7e1794505869b1ce94c84905ecea.m3u8
-#EXTINF:-1 tvg-id="roku_e498eb91cd01d4c0c0acdb5ea7c736ab" tvg-name="Kanal D Drama" tvg-chno="1011" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/e498eb91cd01d4c0c0acdb5ea7c736ab/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1771623196005_VIVE-KANAL-D-DRAMA-HUD_260x147.png" group-title="Entertainment",Kanal D Drama
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-e498eb91cd01d4c0c0acdb5ea7c736ab.m3u8
 #EXTINF:-1 tvg-id="roku_9b3f0b588b03c9126a053d3eebfc58db" tvg-name="FreeTV Asia" tvg-chno="1013" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/9b3f0b588b03c9126a053d3eebfc58db/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1736789758464_FreeTV_Asia_HUD_Logo_.png" group-title="Action",FreeTV Asia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -923,10 +863,6 @@ https://jmp2.uk/rok-f53e794f65b781ff1a0d37843c704827.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-59d2dbddc997559bb7b689a7c887cba4.m3u8
-#EXTINF:-1 tvg-id="roku_308d792301e9897cbd41d0390abef68f" tvg-name="Cine de Horror" tvg-chno="1016" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/308d792301e9897cbd41d0390abef68f/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1758347646934_Logo_Cine_de_horror_260-x-147px_color_efefef_alineado_al_borde_superior.png" group-title="Horror",Cine de Horror
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-308d792301e9897cbd41d0390abef68f.m3u8
 #EXTINF:-1 tvg-id="roku_b015fcbafb496320954672321e746f8a" tvg-name="Todo Cine" tvg-chno="1017" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/b015fcbafb496320954672321e746f8a/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1758347842585_LOGO_Todocine_Roku_HUD-verticalRoxannaTork.png" group-title="Action",Todo Cine
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -943,10 +879,6 @@ https://jmp2.uk/rok-2bc36154da3310eaa692d0ea141ef8e0.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-3ee48530e00e0abe8eb40c71fc819aa0.m3u8
-#EXTINF:-1 tvg-id="roku_205560cb5f4b7d87ad7073c53a81f931" tvg-name="Artflix" tvg-chno="1022" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/205560cb5f4b7d87ad7073c53a81f931/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1774998796214_Artflix_monochromatic_logo_260x147.png" group-title="Entertainment",Artflix
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-205560cb5f4b7d87ad7073c53a81f931.m3u8
 #EXTINF:-1 tvg-id="roku_842a871b7e9a7817c72209b689e43254" tvg-name="FreeTV Hits" tvg-chno="1023" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/842a871b7e9a7817c72209b689e43254/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1780011054969_FreeTVHitsInfo-HUD_260x147.png" group-title="Music",FreeTV Hits
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -971,10 +903,6 @@ https://jmp2.uk/rok-50cd4d6c632d5172834eb5b77fa395c6.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-1e2a4ec82eb65f729ad7484337c0bcd4.m3u8
-#EXTINF:-1 tvg-id="roku_c39d021ed8c95682a82ce6077ac0ab47" tvg-name="Runtime Sangre Fría" tvg-chno="1049" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/c39d021ed8c95682a82ce6077ac0ab47/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1748485001772_Sangre_Fria_HUD_260x147.png" group-title="Crime",Runtime Sangre Fría
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-c39d021ed8c95682a82ce6077ac0ab47.m3u8
 #EXTINF:-1 tvg-id="roku_c7fa77b283b35873aa6f08cf73d75b5f" tvg-name="Crímenes Verdaderos" tvg-chno="1050" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/c7fa77b283b35873aa6f08cf73d75b5f/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1766158130627_RokuChannel_FilmRiseCrimenesVerdaderos_HUD_Logo_260x147.png" group-title="Crime",Crímenes Verdaderos
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -1011,54 +939,14 @@ https://jmp2.uk/rok-73991aa61267bcc005a855c7b6303afc.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-d90a57a66251fdda967c2e2b9e6aa25d.m3u8
-#EXTINF:-1 tvg-id="roku_60db737695c95b599dad50d2c5595fe3" tvg-name="Vevo Reggaeton & Trap" tvg-chno="1101" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/60db737695c95b599dad50d2c5595fe3/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1675113591743_Info_HUD_Logo_260X147_center_%25281%2529_%25281%2529.png" group-title="Music",Vevo Reggaeton & Trap
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-60db737695c95b599dad50d2c5595fe3.m3u8
-#EXTINF:-1 tvg-id="roku_0d5283959d3a59bf87411e7077fd9e58" tvg-name="Vevo Latino" tvg-chno="1103" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/0d5283959d3a59bf87411e7077fd9e58/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1675113444761_Info_HUD_Logo_260X147_center_%252815%2529.png" group-title="Music",Vevo Latino
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-0d5283959d3a59bf87411e7077fd9e58.m3u8
 #EXTINF:-1 tvg-id="roku_8e04e4c0e2cd5fe49b087a6ce5fd0d91" tvg-name="TikTok Radio" tvg-chno="1120" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/8e04e4c0e2cd5fe49b087a6ce5fd0d91/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1719497617582_11110_SM_TikTokRadio_Logo_260x147_V02.png" group-title="Music",TikTok Radio
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-8e04e4c0e2cd5fe49b087a6ce5fd0d91.m3u8
-#EXTINF:-1 tvg-id="roku_e50a8f06d3245c95a4e250dc5c33c2be" tvg-name="Vevo Pop" tvg-chno="1126" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/e50a8f06d3245c95a4e250dc5c33c2be/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1675113520589_Info_HUD_Logo_260X147_center_%252814%2529.png" group-title="Music",Vevo Pop
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-e50a8f06d3245c95a4e250dc5c33c2be.m3u8
-#EXTINF:-1 tvg-id="roku_6be3083b8ec2508495684e5087f8f86a" tvg-name="Vevo R&B" tvg-chno="1134" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/6be3083b8ec2508495684e5087f8f86a/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1675113546717_Info_HUD_Logo_260X147_center_%252813%2529.png" group-title="Music",Vevo R&B
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-6be3083b8ec2508495684e5087f8f86a.m3u8
-#EXTINF:-1 tvg-id="roku_8dc44c8fdea45f039c68f75bda233850" tvg-name="Vevo Hip-Hop" tvg-chno="1136" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/8dc44c8fdea45f039c68f75bda233850/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1675113465461_Info_HUD_Logo_260X147_center_%25283%2529.png" group-title="Music",Vevo Hip-Hop
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-8dc44c8fdea45f039c68f75bda233850.m3u8
 #EXTINF:-1 tvg-id="roku_3395d3b6c6e895a495fd12a2c719b21c" tvg-name="iHeartCountry Classics" tvg-chno="1141" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/3395d3b6c6e895a495fd12a2c719b21c/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728501104207_260x147_Image_HUD_2.png" group-title="Music",iHeartCountry Classics
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-3395d3b6c6e895a495fd12a2c719b21c.m3u8
-#EXTINF:-1 tvg-id="roku_1db9c603bb4e5d87b015f9963da1093e" tvg-name="Vevo Country" tvg-chno="1148" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/1db9c603bb4e5d87b015f9963da1093e/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1675113404058_Info_HUD_Logo_260X147_center_%25284%2529.png" group-title="Music",Vevo Country
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-1db9c603bb4e5d87b015f9963da1093e.m3u8
-#EXTINF:-1 tvg-id="roku_94759dbd58a65682bcc573932f725f46" tvg-name="Vevo 2K" tvg-chno="1160" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/94759dbd58a65682bcc573932f725f46/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1675113375186_Info_HUD_Logo_260X147_center_%252819%2529.png" group-title="Music",Vevo 2K
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-94759dbd58a65682bcc573932f725f46.m3u8
-#EXTINF:-1 tvg-id="roku_4c0772ef75e1565183843b37e91591f8" tvg-name="Vevo '90s" tvg-chno="1164" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/4c0772ef75e1565183843b37e91591f8/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1675113345580_Info_HUD_Logo_260X147_center_%252816%2529.png" group-title="Music",Vevo '90s
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-4c0772ef75e1565183843b37e91591f8.m3u8
-#EXTINF:-1 tvg-id="roku_fd8d765f98605129914b581147e7e8b2" tvg-name="Vevo '80s" tvg-chno="1170" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/fd8d765f98605129914b581147e7e8b2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1675112947403_Info_HUD_Logo_260X147_center_%252817%2529.png" group-title="Music",Vevo '80s
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-fd8d765f98605129914b581147e7e8b2.m3u8
-#EXTINF:-1 tvg-id="roku_e5dcad2b1c055d4d86a9f7bba9438da7" tvg-name="Vevo '70s" tvg-chno="1180" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/e5dcad2b1c055d4d86a9f7bba9438da7/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1675112924287_Info_HUD_Logo_260X147_center_%252818%2529.png" group-title="Music",Vevo '70s
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-e5dcad2b1c055d4d86a9f7bba9438da7.m3u8
 #EXTINF:-1 tvg-id="roku_6abe7dcc96d5d834853c8d1c93d97230" tvg-name="News 12 New York" tvg-chno="4104" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/6abe7dcc96d5d834853c8d1c93d97230/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1727118344457_N12NY_Roku_Info_HUD.png" group-title="News",News 12 New York
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -1107,10 +995,6 @@ https://jmp2.uk/rok-0b285303dd2fbf7a851db13ce53d5d1f.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-58e6bfd1c4819af32ead547dbc82e1f8.m3u8
-#EXTINF:-1 tvg-id="roku_4152241b9d223469e331491b1afad685" tvg-name="World Surf League" tvg-chno="5245" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/4152241b9d223469e331491b1afad685/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1778863419296_world_surf_league_logo_hud.png" group-title="Action Sports",World Surf League
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-4152241b9d223469e331491b1afad685.m3u8
 #EXTINF:-1 tvg-id="roku_8346c21c4b5b032cca68a74933e7642b" tvg-name="Watch AEW" tvg-chno="5246" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/8346c21c4b5b032cca68a74933e7642b/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1779304614728_all_elite_wrestling_logo_hud.png" group-title="Entertainment",Watch AEW
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -1135,23 +1019,27 @@ https://jmp2.uk/rok-17059eafd4718bca691ba93aacb3fa8d.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-ef298726c27d1157fedd8cb0b9367159.m3u8
-#EXTINF:-1 tvg-id="roku_2fc3353cd214be87e4959643805a4d08" tvg-name="A&E Alaska State Troopers" tvg-chno="5320" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/2fc3353cd214be87e4959643805a4d08/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1775264988905_AlaskaStateTroopers_HUD_logo_efefef_center_aligned_260x147.png" group-title="Crime",A&E Alaska State Troopers
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/rok-2fc3353cd214be87e4959643805a4d08.m3u8
 #EXTINF:-1 tvg-id="roku_395e5ab16c63e8c58af0680395af35a6" tvg-name="Penn & Teller: Fool Us" tvg-chno="5400" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/395e5ab16c63e8c58af0680395af35a6/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1783457535885_penn_teller_fool_us_logo_hud.png" group-title="Entertainment",Penn & Teller: Fool Us
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/rok-395e5ab16c63e8c58af0680395af35a6.m3u8
-#EXTINF:-1 tvg-id="samsung_USBA34000049Z" tvg-name="Court TV" tvg-chno="1002" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA34000049Z_20260825T035901SQUARE.png" group-title="Crime",Court TV
+#EXTINF:-1 tvg-id="samsung_USBA3000043LH" tvg-name="Samsung Wild Life" tvg-chno="1001" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3000043LH_20260901T055705SQUARE.png" group-title="Nature, History & Science",Samsung Wild Life
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/stvp-USBA34000049Z
-#EXTINF:-1 tvg-id="samsung_USBB520002173" tvg-name="Ice Road Truckers" tvg-chno="1003" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB520002173_20260825T040228SQUARE.png" group-title="Reality Competition",Ice Road Truckers
+https://jmp2.uk/stvp-USBA3000043LH
+#EXTINF:-1 tvg-id="samsung_US5000053YV" tvg-name="Family Feud" tvg-chno="1002" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US5000053YV_20260901T055814SQUARE.png" group-title="Game Shows",Family Feud
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/stvp-USBB520002173
-#EXTINF:-1 tvg-id="samsung_USBA370000104" tvg-name="CBS News 24/7" tvg-chno="1110" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA370000104_20260421T133815SQUARE.png" group-title="News & Opinion",CBS News 24/7
+https://jmp2.uk/stvp-US5000053YV
+#EXTINF:-1 tvg-id="samsung_USBC390002256" tvg-name="Cold Case Files" tvg-chno="1003" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC390002256_20260901T055754SQUARE.png" group-title="Crime",Cold Case Files
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://jmp2.uk/stvp-USBC390002256
+#EXTINF:-1 tvg-id="samsung_USBC600018CF" tvg-name="Antiques Roadshow UK" tvg-chno="1004" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC600018CF_20260901T055745SQUARE.png" group-title="Home & Food",Antiques Roadshow UK
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://jmp2.uk/stvp-USBC600018CF
+#EXTINF:-1 tvg-id="samsung_USBA370000104" tvg-name="CBS News 24/7" tvg-chno="1110" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA370000104_20260826T013607SQUARE.png" group-title="News & Opinion",CBS News 24/7
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USBA370000104
@@ -1203,6 +1091,10 @@ https://jmp2.uk/stvp-USAJ3400011A8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USAJ30000041W
+#EXTINF:-1 tvg-id="samsung_US2400013TO" tvg-name="Business Insider" tvg-chno="1163" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2400013TO_20260901T055751SQUARE.png" group-title="News & Opinion",Business Insider
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://jmp2.uk/stvp-US2400013TO
 #EXTINF:-1 tvg-id="samsung_USAJ4300005PJ" tvg-name="Yahoo Finance" tvg-chno="1165" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ4300005PJ_20260120T230333SQUARE.png" group-title="News & Opinion",Yahoo Finance
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -1283,7 +1175,7 @@ https://jmp2.uk/stvp-US8000024G
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USAJ3000007MT
-#EXTINF:-1 tvg-id="samsung_USBA300005MK" tvg-name="Pluto TV Westerns" tvg-chno="1406" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300005MK_20260421T133553SQUARE.png" group-title="Western & Classic TV",Pluto TV Westerns
+#EXTINF:-1 tvg-id="samsung_USBA300005MK" tvg-name="Classic Movie Westerns" tvg-chno="1406" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300005MK_20260901T055725SQUARE.png" group-title="Western & Classic TV",Classic Movie Westerns
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USBA300005MK
@@ -1379,7 +1271,7 @@ https://jmp2.uk/stvp-US150000550
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-US3000006DF
-#EXTINF:-1 tvg-id="samsung_USAJ26000015Y" tvg-name="Drama Life" tvg-chno="1565" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ26000015Y_20260421T133449SQUARE.png" group-title="Action & Drama",Drama Life
+#EXTINF:-1 tvg-id="samsung_USAJ26000015Y" tvg-name="Supernatural Drama" tvg-chno="1565" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ26000015Y_20260901T055719SQUARE.png" group-title="Action & Drama",Supernatural Drama
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USAJ26000015Y
@@ -1523,7 +1415,7 @@ https://jmp2.uk/stvp-US160000159
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-US900059YT
-#EXTINF:-1 tvg-id="samsung_USBD42000250Q" tvg-name="American Crimes" tvg-chno="1848" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD42000250Q_20260825T040004SQUARE.png" group-title="Crime",American Crimes
+#EXTINF:-1 tvg-id="samsung_USBD42000250Q" tvg-name="American Crimes" tvg-chno="1848" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD42000250Q_20260901T055738SQUARE.png" group-title="Crime",American Crimes
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USBD42000250Q
@@ -1543,10 +1435,6 @@ https://jmp2.uk/stvp-USBB5200022PY
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USBB3200017MY
-#EXTINF:-1 tvg-id="samsung_USBC390002256" tvg-name="Cold Case Files" tvg-chno="1862" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC390002256_20260407T042320SQUARE.png" group-title="Crime",Cold Case Files
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/stvp-USBC390002256
 #EXTINF:-1 tvg-id="samsung_USBB3200018Q6" tvg-name="Unsolved Mysteries" tvg-chno="1865" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3200018Q6_20250211T021703SQUARE.png" group-title="Crime",Unsolved Mysteries
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -1571,7 +1459,11 @@ https://jmp2.uk/stvp-US46000120T
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USAK3508710A
-#EXTINF:-1 tvg-id="samsung_USBB4400016F9" tvg-name="All-Out Reality" tvg-chno="1904" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB4400016F9_20260825T035956SQUARE.png" group-title="Reality TV",All-Out Reality
+#EXTINF:-1 tvg-id="samsung_USBA34000049Z" tvg-name="Court TV" tvg-chno="1892" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA34000049Z_20260825T035901SQUARE.png" group-title="Crime",Court TV
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://jmp2.uk/stvp-USBA34000049Z
+#EXTINF:-1 tvg-id="samsung_USBB4400016F9" tvg-name="All-Out Reality" tvg-chno="1904" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB4400016F9_20260901T055730SQUARE.png" group-title="Reality TV",All-Out Reality
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USBB4400016F9
@@ -1647,7 +1539,7 @@ https://jmp2.uk/stvp-USBD3500031F3
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USBC6000219D
-#EXTINF:-1 tvg-id="samsung_US900002IH" tvg-name="Dog the Bounty Hunter" tvg-chno="1966" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US900002IH_20260825T040208SQUARE.png" group-title="Reality TV",Dog the Bounty Hunter
+#EXTINF:-1 tvg-id="samsung_US900002IH" tvg-name="Dog the Bounty Hunter" tvg-chno="1966" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US900002IH_20260901T055805SQUARE.png" group-title="Reality TV",Dog the Bounty Hunter
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-US900002IH
@@ -1695,7 +1587,7 @@ https://jmp2.uk/stvp-US700002ZB
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-US4500001DM
-#EXTINF:-1 tvg-id="samsung_USBC21000142T" tvg-name="Home Refresh" tvg-chno="2005" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC21000142T_20260825T040219SQUARE.png" group-title="Home & Food",Home Refresh
+#EXTINF:-1 tvg-id="samsung_USBC21000142T" tvg-name="Home Refresh" tvg-chno="2005" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC21000142T_20260901T055821SQUARE.png" group-title="Home & Food",Home Refresh
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USBC21000142T
@@ -1751,10 +1643,6 @@ https://jmp2.uk/stvp-USBD1200022S1
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USBD4200017GS
-#EXTINF:-1 tvg-id="samsung_USBC600018CF" tvg-name="Antiques Roadshow UK" tvg-chno="2044" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC600018CF_20260707T035808SQUARE.png" group-title="Home & Food",Antiques Roadshow UK
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/stvp-USBC600018CF
 #EXTINF:-1 tvg-id="samsung_US2000017HT" tvg-name="Epic Gardening TV" tvg-chno="2095" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2000017HT_20260407T042323SQUARE.png" group-title="Home & Food",Epic Gardening TV
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -1867,7 +1755,7 @@ https://jmp2.uk/stvp-US300062TG
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-US4700001B4
-#EXTINF:-1 tvg-id="samsung_USBB4800005VO" tvg-name="CBS Sports HQ" tvg-chno="2330" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB4800005VO_20260421T143318SQUARE.png" group-title="Sports & Outdoors",CBS Sports HQ
+#EXTINF:-1 tvg-id="samsung_USBB4800005VO" tvg-name="CBS Sports HQ" tvg-chno="2330" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB4800005VO_20260826T013637SQUARE.png" group-title="Sports & Outdoors",CBS Sports HQ
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USBB4800005VO
@@ -2247,6 +2135,10 @@ https://jmp2.uk/stvp-USBD3500041ZF
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USBD2700014QW
+#EXTINF:-1 tvg-id="samsung_USBB520002173" tvg-name="Ice Road Truckers" tvg-chno="2739" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB520002173_20260825T040228SQUARE.png" group-title="Reality Competition",Ice Road Truckers
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://jmp2.uk/stvp-USBB520002173
 #EXTINF:-1 tvg-id="samsung_USBB5200020Z0" tvg-name="Ax Men" tvg-chno="2744" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB5200020Z0_20250826T234514SQUARE.png" group-title="Reality Competition",Ax Men
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -2303,10 +2195,6 @@ https://jmp2.uk/stvp-USBB4400017N3
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USBA3000100X
-#EXTINF:-1 tvg-id="samsung_US5000053YV" tvg-name="Family Feud" tvg-chno="2840" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US5000053YV_20260818T061216SQUARE.png" group-title="Game Shows",Family Feud
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/stvp-US5000053YV
 #EXTINF:-1 tvg-id="samsung_US490000330" tvg-name="Family Feud Classic" tvg-chno="2841" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US490000330_20260421T141754SQUARE.png" group-title="Game Shows",Family Feud Classic
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -2371,7 +2259,7 @@ https://jmp2.uk/stvp-US3900016OI
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USBB1900006NY
-#EXTINF:-1 tvg-id="samsung_US370001124" tvg-name="Tony Robbins" tvg-chno="2940" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US370001124_20260825T040301SQUARE.png" group-title="Lifestyle & Pop Culture",Tony Robbins
+#EXTINF:-1 tvg-id="samsung_US370001124" tvg-name="Tony Robbins" tvg-chno="2940" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US370001124_20260901T055829SQUARE.png" group-title="Lifestyle & Pop Culture",Tony Robbins
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-US370001124
@@ -2403,7 +2291,7 @@ https://jmp2.uk/stvp-USBA3800003VP
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-US400006304
-#EXTINF:-1 tvg-id="samsung_USBA3700002JF" tvg-name="ET" tvg-chno="2966" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3700002JF_20260421T142039SQUARE.png" group-title="Lifestyle & Pop Culture",ET
+#EXTINF:-1 tvg-id="samsung_USBA3700002JF" tvg-name="ET" tvg-chno="2966" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3700002JF_20260826T013614SQUARE.png" group-title="Lifestyle & Pop Culture",ET
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USBA3700002JF
@@ -2527,10 +2415,6 @@ https://jmp2.uk/stvp-US240000434
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USAJ3504531A
-#EXTINF:-1 tvg-id="samsung_USBA3000043LH" tvg-name="Samsung Wild Life" tvg-chno="3505" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3000043LH_20260609T034930SQUARE.png" group-title="Nature, History & Science",Samsung Wild Life
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/stvp-USBA3000043LH
 #EXTINF:-1 tvg-id="samsung_US2100010AB" tvg-name="Brave Wilderness" tvg-chno="3507" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2100010AB_20260421T141944SQUARE.png" group-title="Nature, History & Science",Brave Wilderness
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -2619,10 +2503,6 @@ https://jmp2.uk/stvp-USBD1200009JI
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-USBC39000204J
-#EXTINF:-1 tvg-id="samsung_USBC2100013WI" tvg-name="TED" tvg-chno="3559" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC2100013WI_20250428T223410SQUARE.png" group-title="Nature, History & Science",TED
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/stvp-USBC2100013WI
 #EXTINF:-1 tvg-id="samsung_USAJ3400014LK" tvg-name="WeatherSpy" tvg-chno="3562" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ3400014LK_20240520T214723SQUARE.png" group-title="Nature, History & Science",WeatherSpy
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -3155,6 +3035,10 @@ https://jmp2.uk/stvp-US14000030Y
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://jmp2.uk/stvp-US1400010S0
+#EXTINF:-1 tvg-id="samsung_US2900025U8" tvg-name="Cosmos" tvg-chno="4560" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2900025U8_20260901T055801SQUARE.png" group-title="Ambiance",Cosmos
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://jmp2.uk/stvp-US2900025U8
 #EXTINF:-1 tvg-id="samsung_USBD3500038R6" tvg-name="Stingray Holidayscapes" tvg-chno="4570" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500038R6_20251230T035626SQUARE.png" group-title="Ambiance",Stingray Holidayscapes
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
