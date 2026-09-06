@@ -62,7 +62,7 @@
 		<news>- first version for Kodi Nexus</news>
 	</extension>
 </addon>
-<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="5.8.1" provider-name="StarWave">
+<addon id="plugin.program.starwave.wizard" name="StarWave Wizard" version="5.8.2" provider-name="StarWave">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -73,7 +73,8 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Install builds and switch layouts for StarWave</summary>
         <description lang="en_GB">Installs and updates StarWave builds, and switches between layouts. Update keeps your Kodi settings, sources, favourites and every add-on login; Fresh Install resets to the build defaults. Switching layout changes only the skin and its menu - credentials and preferences are never touched, because no skin stores them. Kodi is closed at the end; reopen it to finish.</description>
-        <news>5.8.1 - Fixed Trakt sign-in never capturing the username: Trakt returns the user object at the top level of /users/me, so the fan-out wrote an empty trakt.user and The Crew reported "Trakt not configured" on every boot. The device-code request now also asks for offline_access, and the scope Trakt actually grants is checked and logged after sign-in so a token that cannot refresh long-term is visible instead of silently expiring.
+        <news>5.8.2 - Fixed Cloudflare 1010 blocking Trakt /users/me during sign-in by ensuring User-Agent header is preserved when custom headers are passed. Extended TMDb Helper boot invariant to prevent GetDirectory error popups when Next Up widgets are empty and guard optional tmdb_type parameter in Trakt sync lists.
+5.8.1 - Fixed Trakt sign-in never capturing the username: Trakt returns the user object at the top level of /users/me, so the fan-out wrote an empty trakt.user and The Crew reported "Trakt not configured" on every boot. The device-code request now also asks for offline_access, and the scope Trakt actually grants is checked and logged after sign-in so a token that cannot refresh long-term is visible instead of silently expiring.
 5.8.0 - The TV guide now comes from a GitHub Release asset instead of a file committed to the public repo every three hours. Devices already carrying the old guide URL are migrated on the first start after this update: the superseded source is retired in the same step that adds the new one, so no device ends up merging the same 800 channels twice. Both URLs are published during the changeover, so nothing goes dark while the fleet catches up.
 5.7.9 - Fixed fleet-wide stale TV guide: the force-merge sat behind the once-per-wizard-version gate, so it fired once per release rather than at every start (5.7.5's "immediately on boot" was never true on a device that was already up to date). Guide freshness is now its own boot invariant that merges only when the guide is actually stale, and the seeded IPTV Merge interval drops from 12h to 2h - both derived from the ~4.6h Samsung TV Plus horizon rather than chosen round.
 5.7.8 - Fixed stale menu tile status label: dynamically resolve build version from version.txt and wizard version live from disk instead of static cached module version.
