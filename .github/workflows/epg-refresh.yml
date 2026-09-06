@@ -59,9 +59,48 @@ jobs:
           EPG_PLAYLIST: iptv/channels.m3u8
         run: python3 .epg/generate-epg.py
 
+      # ============================ PHASE 3 SWITCH ============================
+      # ONE LINE. Change 'on' to 'off' below and the EPG stops being written into git;
+      # the Release asset uploaded by the next step becomes its only publication.
+      #
+      # THE ONLY TWO LEGAL VALUES ARE 'on' AND 'off', lower-case, no surrounding space.
+      # Anything else fails the run - see the `case` below for why that is not pedantry.
+      #
+      # THIS IS AN OWNER DECISION AND IT IS NOT SCHEDULED. Devices take wizard updates on
+      # their own schedule, and two of them (machine, shield) are quarantined, so nobody
+      # can currently observe when they have. Flipping this while any device still holds
+      # the old Pages URL points that device at a file nobody updates. The evidence that
+      # must exist first is written down in adr/003-epg-release-asset.md, section
+      # "When phase 3 may be taken" - read it there rather than deciding from this comment.
+      # ========================================================================
       - name: Commit if changed
+        env:
+          PUBLISH_TO_PAGES: 'on'
         run: |
           set -euo pipefail
+          # ENUMERATED, NOT NEGATED. This was `[ "$PUBLISH_TO_PAGES" != "on" ]`, which
+          # treats EVERY value except exactly lower-case `on` as "phase 3 is taken" and
+          # exits 0. Demonstrated by running this body: 'On', 'ON', 'true', 'yes', '1',
+          # 'on ' with a trailing space and '' all silently stopped the commit with a
+          # GREEN run and no email, while every device was still fetching Pages - the
+          # guide would freeze and nothing would say so. The comment above literally
+          # invites the typo by naming the value in prose ("change 'on' to 'off'").
+          # The unset case already failed loudly under `set -u`, so the loud path existed
+          # for one class of mistake and not the other. Now both are loud.
+          case "$PUBLISH_TO_PAGES" in
+            on)
+              ;;
+            off)
+              echo "PUBLISH_TO_PAGES=off: phase 3 is taken - the Release asset is the only publication."
+              exit 0
+              ;;
+            *)
+              echo "PUBLISH_TO_PAGES=[${PUBLISH_TO_PAGES}] is neither 'on' nor 'off'." >&2
+              echo "Refusing to guess. Devices may still be fetching the Pages copy; silently" >&2
+              echo "skipping the commit would freeze the guide on a green run." >&2
+              exit 1
+              ;;
+          esac
           git config user.name  "starwave-epg-bot"
           git config user.email "starwave-epg-bot@users.noreply.github.com"
           git add iptv/epg.xml.gz
@@ -103,3 +142,61 @@ jobs:
           done
           echo "push still rejected after 3 attempts" >&2
           exit 1
+
+      # THE DESTINATION THAT REPLACES INSTEAD OF APPENDING.
+      #
+      # Committing the .gz costs ~1.5 MiB of PERMANENT git history every run, eight runs a
+      # day, forever - measured at 1,556,566 packed bytes for the newest revision in the
+      # workshop repo, with no delta against its predecessor because gzip streams do not
+      # delta-compress. Release assets live outside the git object database and do not
+      # count toward repository size, so uploading to a FIXED tag with --clobber replaces
+      # one blob rather than appending a new one. The automatic GITHUB_TOKEN can already
+      # write releases under the `contents: write` this job already holds, so this adds no
+      # credential and no permission.
+      #
+      # THIS STEP IS DELIBERATELY LAST, AND THAT IS A SAFETY PROPERTY, NOT AN ACCIDENT.
+      # Every device in the fleet still fetches the Pages copy today, so the commit above
+      # is the device-facing publication. If this step ran first and failed, a broken
+      # release upload would take the guide down with it - a new way to break televisions
+      # in the name of saving storage. Running last, the new mechanism can only fail
+      # forward: the run goes red, the owner is emailed, and every device still has a guide.
+      #
+      # --prerelease IS LOAD-BEARING, NOT COSMETIC. scripts/check-version.sh --repo in the
+      # workshop repo asserts that the newest NON-prerelease release tag equals the build
+      # version. A normal release here would be the newest one and would fail that check
+      # from now on. Marked prerelease, it is filtered out and the check is untouched.
+      #
+      # There is a gap of a second or two per run where --clobber has deleted the old asset
+      # and not yet finished uploading the new one, during which the URL 404s. A device that
+      # lands in it keeps the guide it already merged and retries on its next interval.
+      - name: Publish EPG as a Release asset
+        env:
+          # The one template expression in this file. It is a SECRET in `env:`, never interpolated into
+          # shell text, so it is not the template-injection shape that rule exists to
+          # forbid - the value cannot be influenced by anything outside GitHub. The
+          # zero-expression alternative (decoding the credential actions/checkout persists
+          # in .git/config) is rejected in adr/003 as more fragile and far less auditable.
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          TAG=epg-current
+          # Created once, never moved. The tag it creates is a single ref; it is not
+          # per-run history. `gh release view` is the existence test because `gh release
+          # create` on an existing tag is an error, not a no-op.
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" \
+              --prerelease \
+              --title "EPG (rolling artifact)" \
+              --notes "Rolling XMLTV guide, replaced in place by the epg-refresh workflow. Not a build release - see adr/003-epg-release-asset.md in the workshop repo."
+          fi
+          gh release upload "$TAG" iptv/epg.xml.gz --clobber
+          # RE-ASSERT --prerelease EVERY RUN, don't just set it at creation. The flag is
+          # load-bearing for check-version.sh --repo (see above), but it was set once, at
+          # create time, and nothing re-established it afterwards. One click on "Set as the
+          # latest release" in the GitHub releases UI - a plausible thing to do to a tag
+          # called `epg-current` that keeps changing - would flip it permanently, break the
+          # version check from then on, and leave no detector behind. Asserting it here
+          # makes the property self-healing within three hours instead of comment-enforced
+          # forever. It is a no-op when the flag is already set.
+          gh release edit "$TAG" --prerelease
+          echo "uploaded iptv/epg.xml.gz ($(wc -c < iptv/epg.xml.gz) bytes) to release ${TAG}, prerelease re-asserted"
